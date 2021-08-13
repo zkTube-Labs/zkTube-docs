@@ -1,4 +1,4 @@
-# < center > TERMS OF USE < /center >
+# TERMS OF USE
 
 Please read these Terms of Use for User(s) (“you/your”) as it contains important information about your legal rights, remedies and obligations. By accessing or using the Website and Application, you agree to comply with and be bound by this Agreement. This Agreement constitutes a legally binding agreement between you and Zktube Labs Pty Ltd., a company having its registered office at L2, 525 Collins St. Melbourne Au 3000 (“zkTube”), governing Your access to and use of the website [www.zktube.io](www.zktube.io) including any subdomains thereof and the Application available on the GooglePlay Store and Apple Apps Store, and any other websites through which zkTube makes its Services available, or mobile, tablet and other smart device applications, and application program interfaces and all associated services provided by zkTube. 
 

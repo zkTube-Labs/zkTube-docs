@@ -2,7 +2,7 @@
 
 For the first version, we can only use ETH to test on Rinkeby network instead of ZKT. The method as follows
 
-Step 1: Open https://twitter.com/intent/tweet?text=Requesting%20faucet%20funds%20into%200x0000000000000000000000000000000000000000%20on%20the%20%23Rinkeby%20%23Ethereum%20test%20network
+## Step 1: Open https://twitter.com/intent/tweet?text=Requesting%20faucet%20funds%20into%200x0000000000000000000000000000000000000000%20on%20the%20%23Rinkeby%20%23Ethereum%20test%20network
 
 <font color='red'> In twitter, replace your address in “0x0000000000000000000000000000000000000000”, click on the "TWEET" </font>
 
@@ -13,4 +13,6 @@ Step 1: Open https://twitter.com/intent/tweet?text=Requesting%20faucet%20funds%2
 ![CopyLinktoTweet](@/CopyLinktoTweet.png)
 
 ## Step 3: Then open the Rinkeby test token faucet website:  [https://www.rinkeby.io/#faucet](https://www.rinkeby.io/#faucet), copy the tweet link into the input box, select the amount you want and click "Give Me Ether"
+
+![GiveMeEthert](@/GiveMeEther.png)
 

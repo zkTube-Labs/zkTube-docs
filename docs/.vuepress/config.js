@@ -30,7 +30,8 @@ module.exports = {
               ],
               '/about/':[
                 '/about/',
-                '/about/Content of website'
+                '/about/Content of website',
+                '/about/Website use & Copyright'
               ],
               '/': [
                   '/Introduction',      

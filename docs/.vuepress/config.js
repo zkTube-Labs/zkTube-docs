@@ -42,7 +42,7 @@ module.exports = {
                 '/connect/',
               ],
               '/about/':[
-                '/about/TERMS OF USE',
+                '/about/',
               ],
               // '/': [
               //     '/Introduction',      

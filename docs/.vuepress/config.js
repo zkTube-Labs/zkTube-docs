@@ -28,11 +28,13 @@ module.exports = {
                 '/connect/'
               ],
               '/about/':[
-                '/about/'
+                '/about/',
+                '/about/Content of website'
               ],
               '/': [
                   '/Introduction',      
               ],
+            
         }
 
     },

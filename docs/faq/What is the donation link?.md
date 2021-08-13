@@ -10,11 +10,11 @@ Operation Procedure:
 
 The first step is to open the “Ethereum Foundation” website.
 
-![Ethereum Foundation](@/Ethereum Foundation.png)
+![EthereumFoundation](@/EthereumFoundation.png)
 
 Secondly, click “Open Grant”.
 
-![Open Grant](@/Open Grant.png)
+![OpenGrant](@/OpenGrant.png)
 
 Thirdly, pull down and click “Trending”, find “zkTube” and click the green button “FUND”.
 
@@ -22,8 +22,8 @@ Thirdly, pull down and click “Trending”, find “zkTube” and click the gre
 
 Next, Link to the “Fox Wallet” to confirm the donation amount
 
-![Fox Wallet](@/Fox Wallet.png)
+![FoxWallet](@/FoxWallet.png)
 
 Lastly, complete the donation. Congratulations to joining the Ethereum Eco-zkTube Community.
 
-![Grant Funded](@/Grant Funded.png)
+![GrantFunded](@/GrantFunded.png)

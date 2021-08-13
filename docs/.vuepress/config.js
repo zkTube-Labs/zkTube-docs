@@ -12,9 +12,23 @@ module.exports = {
                 text:'FAQ',
                 link:'/faq/'
             },
+            {
+              text:'Connect',
+              link:'/connect/'
+            },
+            {
+              text:'About',
+              link:'/about/'
+            },
         ],
         sidebar:{
             '/faq/': ['/faq/What address should I use for a donation',
+              ],
+              '/connect/':[
+                '/connect/'
+              ],
+              '/about/':[
+                '/about/'
               ],
               '/': [
                   '/Introduction',      

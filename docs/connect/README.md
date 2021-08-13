@@ -1,13 +1,13 @@
-# connect us
+# Connect us
 
 # Community connection
 
-- Gitter Group:[https://gitter.im/zkTube-Labs/community](https://gitter.im/zkTube-Labs/community）  
-- Discord Chat:[https://discord.gg/xtVdMCr54q](https://discord.gg/xtVdMCr54q）  
+- Gitter Group:[https://gitter.im/zkTube-Labs/community](https://gitter.im/zkTube-Labs/community)  
+- Discord Chat:[https://discord.gg/xtVdMCr54q](https://discord.gg/xtVdMCr54q)  
 - Telegram:[https://t.me/zkTubeProtocol](https://t.me/zkTubeProtocol)  
 - Twitter:[https://twitter.com/zktubeofficial](https://twitter.com/zktubeofficial)  
 - Facebook:[https://www.facebook.com/zkTube.official/](https://www.facebook.com/zkTube.official/)  
-- Medium:[https://zktube.medium.com/](https://zktube.medium.com/）
+- Medium:[https://zktube.medium.com/](https://zktube.medium.com/)
 
 # Announcement channel
 

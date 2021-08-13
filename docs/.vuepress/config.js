@@ -23,6 +23,7 @@ module.exports = {
         ],
         sidebar:{
             '/faq/': ['/faq/What address should I use for a donation',
+                      '/faq/What is the donation link?',
               ],
               '/connect/':[
                 '/connect/'

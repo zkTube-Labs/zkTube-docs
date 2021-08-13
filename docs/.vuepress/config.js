@@ -27,6 +27,12 @@ module.exports = {
                       '/faq/Do we have official WeChat group',
                       '/faq/Where do I get my test coin',
                       '/faq/The balance problem which the deposit amount doesn’t show up means we cannot withdraw',
+                      '/faq/What is zktube',
+                      '/faq/When can I know if I’m on the whitelist',
+                      '/faq/Who can I contact to propose an AMA session and collaboration',
+                      '/faq/Does the private ZKT coin need lock position',
+                      '/faq/Does zktube have a miner',
+                      '/faq/A total of 100000 pieces can be subscribed',
               ],
               '/connect/':[
                 '/connect/'

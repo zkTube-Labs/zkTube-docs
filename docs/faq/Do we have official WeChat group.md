@@ -2,7 +2,7 @@
 
 Please contact zkTube and follow up with zkTube in the following channel:
 
-Web: paytube.io
+Web: [paytube.io](paytube.io)
 
 Twitter: [https://twitter.com/zktubeofficial](https://twitter.com/zktubeofficial)
 

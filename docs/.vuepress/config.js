@@ -46,7 +46,31 @@ module.exports = {
           '@': resolve('/.vuepress/public')
         }
       }
-    }
+    },
+    head: [
+      ['link', { rel: 'icon', href: '/favicon.png' }],
+      ['script',
+      {},
+      `
+      const logoClick = setInterval(function() {
+        const homeEles = document.getElementsByClassName("home-link");
+        if(homeEles && homeEles.length > 0) {
+          const homeEl = homeEles[0];
+          homeEl.setAttribute("href", "https://zktube.io");
+          homeEl.setAttribute("onclick", "document.location='https://zktube.io';return false;");
+          clearInterval(logoClick);
+        }
+
+        //Actual logo image
+        const logoEles = document.getElementsByClassName("logo")
+        if(logoEles && logoEles.length > 0) {
+          const logoEl = logoEles[0]
+          logoEl.setAttribute("onclick", "document.location='https://zktube.io';return false;");
+          clearInterval(logoClick);
+        }
+      }, 1000)`
+      ]
+    ],
   }
 
 function resolve (dir) {

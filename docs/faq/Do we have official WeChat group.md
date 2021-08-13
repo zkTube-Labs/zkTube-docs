@@ -10,7 +10,7 @@ Medium: [zktube.medium.com](zktube.medium.com)
 
 Facebook: [https://www.facebook.com/zktube.official/](https://www.facebook.com/zktube.official/)
 
-Email: [support@zktube.io](support@zktube.io)
+Email: support@zktube.io
 
 Telegram: [https://t.me/zktubeGlobal](https://t.me/zktubeGlobal)
 

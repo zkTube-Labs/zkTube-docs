@@ -39,7 +39,7 @@ module.exports = {
                       '/faq/A total of 100000 pieces can be subscribed',
               ],
               '/connect/':[
-                '/connect/README'
+                '/connect/',
               ],
               '/about/':[
                 '/about/TERMS OF USE',

@@ -1,0 +1,3 @@
+# “ A total of 100,000 pieces can be subscribed”, meaning 100,000 ZKT?
+
+ZKT is not launched yet, we only launched [ZKTR](https://etherscan.io/token/0xc53d46fd66edeb5d6f36e53ba22eee4647e2cdb2?__cf_chl_captcha_tk__=pmd_27c0b838d6aab89d9ab747f4e09a1d8847539267-1628860150-0-gqNtZGzNAyKjcnBszQkO#balances), ZKTR is used for [ZKTube](https://zktube.io/) test. After the main network of ZKTube is launched, we will take a snapshot according to 1:1 and send the real ZKT to the users’ address. The target of ZKTR is 600,000,000 and 100,000 will reward the users which participating in the deposit test. ZKTR will be added in the later stage.

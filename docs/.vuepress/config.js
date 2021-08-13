@@ -34,12 +34,10 @@ module.exports = {
                       '/faq/A total of 100000 pieces can be subscribed',
               ],
               '/connect/':[
-                '/connect/'
+                '/connect/README'
               ],
               '/about/':[
-                '/about/',
-                '/about/Content of website',
-                '/about/Website use & Copyright'
+                '/about/TERMS OF USE',
               ],
               // '/': [
               //     '/Introduction',      

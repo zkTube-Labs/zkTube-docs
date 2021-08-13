@@ -16,6 +16,7 @@ module.exports = {
         sidebar:{
             '/faq/': ['/faq/What address should I use for a donation',
                       '/faq/What is the donation link',
+                      '/faq/Do we have official WeChat group',
               ],
               '/': [
                   '/Introduction',      

@@ -18,6 +18,7 @@ module.exports = {
                       '/faq/What is the donation link',
                       '/faq/Do we have official WeChat group',
                       '/faq/Where do I get my test coin',
+                      '/faq/The balance problem which the deposit amount doesn’t show up means we cannot withdraw',
               ],
               '/': [
                   '/Introduction',      

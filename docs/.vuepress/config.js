@@ -14,7 +14,7 @@ module.exports = {
             },
         ],
         sidebar:{
-            '/faq/': ['/What address should I use for a donation',
+            '/faq/': ['/faq/What address should I use for a donation',
               ],
               '/': [
                   '/Introduction',      

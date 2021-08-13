@@ -4,10 +4,10 @@ module.exports = {
     themeConfig: {
         logo: '/logo.png',
         nav:[
-            {
-                text:'Docs',
-                link:'/'
-            },
+            // {
+            //     text:'Docs',
+            //     link:'/'
+            // },
             {
                 text:'FAQ',
                 link:'/faq/'
@@ -32,9 +32,9 @@ module.exports = {
                 '/about/Content of website',
                 '/about/Website use & Copyright'
               ],
-              '/': [
-                  '/Introduction',      
-              ],
+              // '/': [
+              //     '/Introduction',      
+              // ],
             
         }
 

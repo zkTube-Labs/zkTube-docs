@@ -24,7 +24,7 @@ module.exports = {
         sidebar:{
             '/faq/': [
                 {
-                path:'/faq',
+                    path:'/faq/',
                     title:'What address should I use for a donation'
                 },
                 // '/faq/What address should I use for a donation',

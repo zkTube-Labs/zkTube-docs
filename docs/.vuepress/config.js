@@ -8,10 +8,10 @@ module.exports = {
             //     text:'Docs',
             //     link:'/'
             // },
-            {
-                text:'Witepaper',
-                link:'/Witepaper/'
-            },
+            //{
+               // text:'Witepaper',
+               // link:'/Witepaper/'
+           // },
             {
                 text:'FAQ',
                 link:'/faq/'

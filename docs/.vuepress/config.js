@@ -50,6 +50,7 @@ module.exports = {
               ],
               '/about/':[
                 '/about/',
+                 '/about/PRIVACY POLICY',
               ],
             
               // '/': [

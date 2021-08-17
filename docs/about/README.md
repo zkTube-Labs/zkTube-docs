@@ -100,7 +100,7 @@ b.If any provision of these Terms of Use is held by a court or other tribunal of
 
 ## 14.Jurisdiction and governing law
 
-The Terms and any and all contracts concluded under them are governed by and shall be construed in accordance with the laws of Australia and all references in these Terms to laws and regulations are references to Australian laws and regulations unless otherwise specified. You agree that any dispute/s arising out of the Terms or otherwise between us shall be subject to the exclusive jurisdiction of the Courts of _______________.
+The Terms and any and all contracts concluded under them are governed by and shall be construed in accordance with the laws of Australia and all references in these Terms to laws and regulations are references to Australian laws and regulations unless otherwise specified. You agree that any dispute/s arising out of the Terms or otherwise between us shall be subject to the exclusive jurisdiction of the Courts of Victoria, Australia.
 
 ## 15.Notice
 

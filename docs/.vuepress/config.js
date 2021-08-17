@@ -9,6 +9,10 @@ module.exports = {
             //     link:'/'
             // },
             {
+                text:'Witepaper',
+                link:'/Witepaper/'
+            },
+            {
                 text:'FAQ',
                 link:'/faq/'
             },

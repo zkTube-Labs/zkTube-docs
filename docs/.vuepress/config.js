@@ -22,6 +22,9 @@ module.exports = {
             },
         ],
         sidebar:{
+             '/Whitepaper/':[
+                '/Whitepaper/',
+              ],
             '/faq/': [
                 {
                     path:'/faq/',
@@ -44,6 +47,7 @@ module.exports = {
               '/about/':[
                 '/about/',
               ],
+            
               // '/': [
               //     '/Introduction',      
               // ],

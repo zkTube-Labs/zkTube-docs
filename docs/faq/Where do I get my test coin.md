@@ -6,13 +6,13 @@ For the first version, we can only use ETH to test on Rinkeby network instead of
 
 <font color='red'> In twitter, replace your address in “0x0000000000000000000000000000000000000000”, click on the "TWEET" </font>
 
-![replace](@/replace.png)
+![replace](https://file.zktube.io/images/whitepaper/replace.png)
 
 ## Step 2: Click the share icon and select “Copy Link to Tweet”.  Copy the link of the Tweet
 
-![CopyLinktoTweet](@/CopyLinktoTweet.png)
+![CopyLinktoTweet](https://file.zktube.io/images/whitepaper/CopyLinktoTweet.png)
 
 ## Step 3: Then open the Rinkeby test token faucet website:  [https://www.rinkeby.io/#faucet](https://www.rinkeby.io/#faucet), copy the tweet link into the input box, select the amount you want and click "Give Me Ether"
 
-![GiveMeEthert](@/GiveMeEther.png)
+![GiveMeEthert](https://file.zktube.io/images/whitepaper/GiveMeEther.png)
 

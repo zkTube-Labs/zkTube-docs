@@ -84,21 +84,21 @@ zkTube is a project built and developed on layer2 based on the PLONK algorithm p
 It needs to be emphasized that it is still submitted on the Ethereum chain, but part of the work on the chain is transferred to offline completion, so it will be as safe as Ethereum.
 
 
-#### Lower Cost Per User Transfer
+**Lower Cost Per User Transfer**
 
 The transfer between off-chain tokens costs only 300–500 Gas, since each rollup operation splits the settlement cost of a single block evenly across the packing block from L2 to L1, reducing the Gas charge. The proof of updating the Merkle tree can be provided. Also, if the cost of transferring the single-chain L1 token is at least 20,000 Gas, we can reduce the Gas charge in the form of the Rollup.
 
-#### Throughput and Scalability
+**Throughput and Scalability**
 
 Each transaction contains less data, thereby improving the throughput and scalability of L2. You can directly use the L2 account balance to transfer directly, and you do not need to wait for the confirmation at the L1 layer to arrive. In this process, users can freely use their balance but, in the end, it is necessary to complete the final certainty at the L1 through a Zero-Knowledge proof mechanism.
 
-#### Ethereum Mainnet Level Security Guarantee
+**Ethereum Mainnet Level Security Guarantee**
 
 In the zkTube network, a large number of computations and data storage operations are placed in L2 for processing, after which a large number of transactions are aggregated and packed into the same block. A Zero-Knowledge proof is generated and sent to L1 for uniform verification, which can improve the transaction processing speed of the whole network and ensure security.
 
 
 
-#### The Ecological Value to ETH
+**The Ecological Value to ETH**
 
 By using the underlying protocol of zkTube, the ETH Gas charge is reduced, and user transactions at Layer 2 are more frequent than previously at Layer 1, thus solving the problem of ETH congestion. In addition, applications that require high TPS or related functions have been solved on zkTube Layer 2. When the Mainnet is launched, zkTube provides the underlying protocol support services to users and applications vendors based on the zkTube Protocol, which enables better migration of applications and contracts on Layer 1. This is what zkTube desperately needs. The idea is to build an ecosystem based on ETH Layer 2.
 
@@ -141,19 +141,23 @@ Transfer means changing the token balance of two accounts in the Merkle Tree. Be
 
 The L2 state is constituted by two parts: Account Root and Token Leaf Node under the account. 
 
-Account
+**Account**
 
-Information on each Token Node
+![Account](@/Account.png)
+
+**Information on each Token Node**
+
+![Information on each Token Node](@/Information.png)
 
 ### 3.2. zkTube Operating Mechanism
 
 The zkTube system covers two different roles: Ordinary User and System Role.
 
-Ordinary User 
+**Ordinary User**
 
 Ordinary User refers to the account corresponding to Layer 2 of zkTube. The user constructs a transfer transaction and signs it with a private key, then collects the transaction in the Pool, and submits it to the first floor using the ETH sender.
 
-System Role
+**System Role**
 
 ZK Rollup=Rollup technology + Zero-Knowledge proof. The core logic design of zkTube is to realize the interaction between L2 data and contract through the rollup and zero-knowledge proof PLONK algorithm. The main design breakthroughs are manifested in the collaboration between different programs.
 
@@ -167,11 +171,11 @@ Block Commiter obtains the updated state and pubdata, submits the pubdata to the
 
 zkTube Prover checks the information that needs to be certified from storage, generates a Zero-Knowledge proof, and then stores the proof in storage. Block Commiter gets the proof and sends it to L1 through the sender, and finally proves that the transaction with no issues entering into the Verified state.
 
-Incentive Mechanisms
+**Incentive Mechanisms**
 
 To ensure the timeliness, stability, and security of the network, also to increase the enthusiasm of zkTube Prover, zkTube has designed a complex algorithm mechanism to ensure that Prover does not do evil. Frequency of Prover submission of tasks, submission duration, and mortgage tokens are weighted to judge, and the qualified Prover can get ZKT as a reward through the zkTube reward mechanism.
 
-Prover Adopts a Decentralized Design
+**Prover Adopts a Decentralized Design**
 
 The main function of Prover is to generate Zero-Knowledge proof data, and the user's asset data signature is managed by the user's wallet (such as MetaMask). The contract and service of zkTube are responsible for the transfer and storage of data, and ultimately will not affect the user's assets. Originally, zkTube or another organization could do the Prover.
 
@@ -187,14 +191,15 @@ zkTube uses decentralization for the following purposes:
 
 ### 3.3 Three Types of Operations for a Trader on Layer 2
 
-Sign Up
+**Sign Up**
 
 To register, users must provide a Merkle tree branch showing some index i, where i=0 and A[i]=0 or i 0 and A[i] = 0 and A[i-1] != 0. The Merkle tree is updated so that A[i] is now equal to the address of msg. sender and the Merkle tree branch is recorded so that the client can read the log to get all the data needed to create its Merkle tree branch.
-Deposit, Withdraw, Transfer
 
-To deposit or withdraw, users need to provide a Merkle tree branch, which shows some index h (where A[h] is equal to the address of msg. sender) and the corresponding branch B[h], and they want to deposit or withdraw/ the transfer amount m (negative for withdrawal). The contract checks this B[h][0] + m>= 0. If m> 0, it verifies (if the system is used for ETH) msg. value == m * 10**12 (that is, the basic unit of the system is 10 ^ {-6} ETH), otherwise it will call the appropriate ERC20 contract. If so, it sends the ETH or token to the contract address. Then, let its smart contract generate and update the Merkle tree root. Please note that to improve efficiency, the registration and deposit steps of traders who have not yet registered can be combined using transferFrom (msg.sender, self, m * 10**12)m <0msg.senderB[i][0] +=m.
+**Deposit, Withdraw, Transfer**
 
-Send
+To deposit or withdraw, users need to provide a Merkle tree branch, which shows some index h (where A[h] is equal to the address of msg. sender) and the corresponding branch B[h], and they want to deposit or withdraw/ the transfer amount m (negative for withdrawal). The contract checks this B[h][0] + m>= 0. If m> 0, it verifies (if the system is used for ETH) msg. value == m * 10* *12 (that is, the basic unit of the system is 10 ^ {-6} ETH), otherwise it will call the appropriate ERC20 contract. If so, it sends the ETH or token to the contract address. Then, let its smart contract generate and update the Merkle tree root. Please note that to improve efficiency, the registration and deposit steps of traders who have not yet registered can be combined using transferFrom (msg.sender, self, m * 10* *12)m <0msg.senderB[i][0] +=m.
+
+**Send**
 
 To send, the user constructs the data: From Address to Address (By index 3 bytes), number (represented by a power of 10 in scientific notation, the general number of bytes is <= 4), gas cost (0-0.5 bytes), random number (2 bytes). User broadcasting (From, To, Amount，Fee，Nonce) and add a Signature.
 Prover can aggregate many transactions in the pool and create ZK to use the Plonk protocol to prove that when all operations are processed in order, at the beginning of each operation B[from][0] >= amount + fee, B [from][1] == nonce and from the known valid signature A[from], then update the Merkle root to have B[from][0] -= amount + fee, B[to][0] += amount, B [relayer][0] += fee, B[from][1] += 1. A log is issued to remind users that the transaction is an unverified payment transaction, and they will need to recalculate their Merkle tree witnesses.
@@ -209,25 +214,25 @@ We can use the following equation to represent the migration process.
 
 The three states of the transaction: initiated, pending, completed (Verified means that the block has been validated on Layer 1).
 
-S[1] = STF(S[0], T[1])
+**S[1] = STF(S[0], T[1])**
 
 Here S [0] is the initial state, S [1] is an execution state of the state machine after-action T [1]. Then several new actions T [2], T [3], …, T [n] continue to act on the state machine. The state machine migration is sequential.
 
-S[2] = STF(S[1], T[2])
+**S[2] = STF(S[1], T[2])**
 
-S[3] = STF(S[2], T[3])
+**S[3] = STF(S[2], T[3])**
 
-…
+**…**
 
-S[n] = STF[S[n-1], T[n]]
+**S[n] = STF[S[n-1], T[n]]**
 
 Briefly, we can also combine T[1], T[2] ... , T[n] as a whole. The state transfer process can be simplified as:
 
-S[n] = STF(S[0], T[1], T[2], …, T[n])
+**S[n] = STF(S[0], T[1], T[2], …, T[n])**
 
 More generally, suppose the current state of the state machine is PRE _STATE, then there are n Actions T [1], T [2], …, T [n] that are sequentially applied to the state machine, then the state machine is POST _STATE, this can be expressed as:
 
-POST_STATE = STF(PRE_STATE, T[1], T[2], …, T[n])
+**POST_STATE = STF(PRE_STATE, T[1], T[2], …, T[n])**
 
 If the above Action is replaced by a transfer transaction, the set of accounts in the system is treated as a state machine, then the entire process is the on-chain transaction execution. The execution of the transaction changes the global state of the whole chain. The global state on the chain is also the state set of each account, which is formed into a Merkle tree. The leaf node of the tree is the account state, and the root of the tree can be directly used to represent the state set. Therefore, the above PRE _STATE and POST _STATE are the roots of the global account status tree.
 
@@ -239,11 +244,11 @@ The account information of all users is maintained in a Merkle tree. The root of
 
 1.First, we must ensure the legitimacy of the transaction.
 
-Is there is enough money in the remittance account to pay the remittance amount and the processing fee.
+- Is there is enough money in the remittance account to pay the remittance amount and the processing fee.
 
-Is the nonce of the remittance account correct?
+- Is the nonce of the remittance account correct?
 
-Is the signature of the remittance transaction correct?
+- Is the signature of the remittance transaction correct?
 
 2.Then, the corresponding role in the system executes the transfer transaction, modifies the leaf nodes of the transfer-out account and transfer-in account in the Merkle tree. It then recalculates the root of the new Merkle tree.
 
@@ -253,11 +258,11 @@ The proof is as follows：
 
 After the Pool has collected a series of transactions, it needs to use the predefined ZK PLONK protocol to generate a PROOF by:
 
-Making sure that the nonce, value, charge in each transaction T[1], T[2], …, T[n] are all correct and the signature is correct.
+- Making sure that the nonce, value, charge in each transaction T[1], T[2], …, T[n] are all correct and the signature is correct.
 
-Making sure there is no problem with the state transition, i.e. STF(PRE_ STATE, T[1], T[2], …, T[n]) = POST _STATE.
+- Making sure there is no problem with the state transition, i.e. STF(PRE_ STATE, T[1], T[2], …, T[n]) = POST _STATE.
 
-Then submitting this PROOF along with POST _STATE, t [1], t [2], …, t[n] to the chain contract. Among them, t [1], t [2], …, t[n] are simplified information of the transaction, without nonce and signature. Therefore, t[i] is smaller than T[i].
+- Then submitting this PROOF along with POST _STATE, t [1], t [2], …, t[n] to the chain contract. Among them, t [1], t [2], …, t[n] are simplified information of the transaction, without nonce and signature. Therefore, t[i] is smaller than T[i].
 
 Then the smart contract just verifies that the PROOF is correct. If the PROOF is correct and the state stored in the contract is replaced by PRE _STATE, then the new state POST _STATE is added to the contract and replaces the state.
 
@@ -273,23 +278,25 @@ In terms of compression, zkTube adopts the compression principle ZK Rollup, maki
 
 For example, a simple Ethereum transaction (sending ETH) is about 110 bytes in size. The ETH transfer on zkTube is only about 12 bytes in size:
 
-The following explains each parametric in the above graphic:
+![Compression Mechanism](@/Compression.png)
 
-Nonce: The main purpose of this parameter is to prevent replay attacks. If the current account of the random number is 5, then the next transaction for the account must contain 5 random numbers, but when the transaction has been processed, the random number in the account is increased to 6, so the transaction cannot be reprocessed. In zkTube, we can eliminate the random number, because we can directly restore the previous state of the random number. If someone tries to use a random number to replay a previous transaction, the signature cannot be verified, because the signature is checked against data that contains a high random number.
+**The following explains each parametric in the above graphic:**
 
-Gas Price: Users pay a fixed gas price range. It is billed according to 14 times a power of 2. It will be adjusted according to the price of Ethereum. Of course, users can customize the adjustment according to the range between the minimum and maximum.
+**Nonce:** The main purpose of this parameter is to prevent replay attacks. If the current account of the random number is 5, then the next transaction for the account must contain 5 random numbers, but when the transaction has been processed, the random number in the account is increased to 6, so the transaction cannot be reprocessed. In zkTube, we can eliminate the random number, because we can directly restore the previous state of the random number. If someone tries to use a random number to replay a previous transaction, the signature cannot be verified, because the signature is checked against data that contains a high random number.
 
-Gas: Gas form is set as a power of 2, which is set by zkTube.
+**Gas Price:** Users pay a fixed gas price range. It is billed according to 14 times a power of 2. It will be adjusted according to the price of Ethereum. Of course, users can customize the adjustment according to the range between the minimum and maximum.
 
-To: You can replace a 20-byte address with an index. For example, if an address is added to the Merkel tree addresses of 4527, we simply use the index 4527 to represent it and then add a "subtree" to store the mapping between the index and the address itself.
+**Gas:** Gas form is set as a power of 2, which is set by zkTube.
 
-Value: Use scientific notation to store the value. The number of bits supported by each currency is different, and the number of bytes ranges from 0 to 0.5.
+**To:** You can replace a 20-byte address with an index. For example, if an address is added to the Merkel tree addresses of 4527, we simply use the index 4527 to represent it and then add a "subtree" to store the mapping between the index and the address itself.
 
-Signature: Use the BLS aggregation signature to aggregate a large number of signatures into about 32-96 bytes and complete the ZK PLONK signature. The aggregate signature can be checked at one time based on the message set and batch sender set. The "~0.5" in the table indicates that there is a limit to the number of signatures that can be included in an aggregate signature.
+**Value:** Use scientific notation to store the value. The number of bits supported by each currency is different, and the number of bytes ranges from 0 to 0.5.
 
-From: Replacing a 20-byte address with an index works the same way as To.
+**Signature:** Use the BLS aggregation signature to aggregate a large number of signatures into about 32-96 bytes and complete the ZK PLONK signature. The aggregate signature can be checked at one time based on the message set and batch sender set. The "~0.5" in the table indicates that there is a limit to the number of signatures that can be included in an aggregate signature.
 
-Total: We can use a scientific approach to store multiple values, the same as with the Value above.
+**From:** Replacing a 20-byte address with an index works the same way as To.
+
+**Total:** We can use a scientific approach to store multiple values, the same as with the Value above.
 
 ### 3.7. Batch Packaging and State Root Isolation 
 
@@ -299,9 +306,9 @@ Unlike in the past, zkTube separates batches, sorts them according to time, and 
 
 The advantages are as follows：
 
-This enables multiple batches to be released simultaneously to improve audit resistance, while avoiding the problem of some batches being packaged first and others becoming ineffective.
+- This enables multiple batches to be released simultaneously to improve audit resistance, while avoiding the problem of some batches being packaged first and others becoming ineffective.
 
-If a state root is invalid, instead of rolling back the whole batch, we can just roll back the state root and wait for someone else to provide a new state root for the batch. This ensures that the transaction from the sender will not be rolled back.
+- If a state root is invalid, instead of rolling back the whole batch, we can just roll back the state root and wait for someone else to provide a new state root for the batch. This ensures that the transaction from the sender will not be rolled back.
 
 ### 3.8. zkTube Technology Improvement (Based on PLONK Algorithm Optimization)
 
@@ -318,6 +325,8 @@ To maximize the CPU, we optimize from the two points of reducing the occupied me
 On the existing Ethereum chain, the upper limit of gas is 12.5 million. In a transaction, each byte of data costs 16 gas. This means that if a block contains only one batch (we say that it is equivalent to packaging a ZK Rollup and spending 500,000 gas on proof verification), that batch can contain (12 million / 16) 750,000 bytes of data. As shown above, for an Ethereum transfer Rollup, each user operation only needs 12 bytes, which means that the batch of transactions can contain up to 62,500 transactions. Now the average block time is 13 seconds, which is equivalent to about 4807 transactions per second (compared to the current direct transfer on Ethereum which is 12.5 million /21000/13~=45 transactions per second).
 
 The following table is an another application example.
+
+![zkTube Scaling Effect](@/Effect.png)
 
 
 ## 4. zkTube Protocol Support
@@ -368,7 +377,7 @@ zkTube implements the data interaction between Rollup A and Rollup B through the
 
 When Ivan discovers that he has received the money in Ivan_A, he can personally send TRADE_VALUE* (1-fee) tokens to DESTINATION. He can use the IVAN_B method to send a transaction to complete the above operation. This method saves a record to prevent the automatic sending clause in the contract from triggering the transaction.
 
-
+![Cross Rollup.png](@/Cross.png)
 
 ### 4.9 Create a Wallet
 
@@ -381,12 +390,12 @@ Ways to create a Layer 2 account include:
 Every transaction involves an Ethereum signature and permission, so there is special processing for the signature. As long as the user creates a transaction in the zkTube network wallet, he must have a zkTube key pair associated with it. The zkTube keys are processed by the Signer object. These keys can be created by deriving them from the Ethereum signature of a specific message. If the user does not provide Signer and the key is created using another method, this method is used by default.
 In order to make the zkTube key valid, the user should use the set signature key to sign or authorize once in the zkTube network.
 
-Signature
+**Signature**
 
 In the zkTube network, Signer is used to sign authorization during the process of creating a wallet, authorizing an ERC20 transfer, Transfer, Withdraw, etc.
 Among them, transactions such as Transfer and Withdraw are signed. The purpose of this signature is to provide higher security if the zkTube key of the wallet is stolen. The user is required to sign the transaction description and perform a signature check when submitting the transaction to zkTube.
 
-Supported Signature Types
+**Supported Signature Types**
 
 Ethereum Signature
 
@@ -400,17 +409,15 @@ zkTube's economic design is to keep the interests of all participants in the sam
 
 To achieve our economic design goals, we must think from several aspects, including:
 
-How to ensure the security of the zkTube protocol.
+- How to ensure the security of the zkTube protocol.
 
-How to maintain the sustainable development of the zkTube system.
+- How to maintain the sustainable development of the zkTube system.
 
-How to protect the interests of participants.
+- How to protect the interests of participants.
 
-How to maintain the interests of the participants and the value of the zkTube system are in the same direction.
+- How to maintain the interests of the participants and the value of the zkTube system are in the same direction.
 
-Before designing the zkTube economic model, let's analyze the existing distributed system model first:
-
-
+**Before designing the zkTube economic model, let's analyze the existing distributed system model first:**
 
 As the earliest blockchain protocol, Bitcoin uses native tokens to incentivize nodes to verify transactions and uses PoW consensus to coordinate competition between nodes. In the Bitcoin economic model, early block rewards are the major way to maintain the interests of nodes. After the block rewards are reduced in the later stages, fees become the main way to maintain the benefit of nodes.
 
@@ -433,23 +440,25 @@ For a decentralized system, a consensus is particularly important for the system
 
 In the zkTube network, the following fees are the main ones incurred:
 
-Deposit. The ETH transaction fee generated by transferring money from an Ethereum Layer 1 account to a zkTube Layer 2 account, which is charged by Ethereum miners.
-Transfer. The transaction fee for zkTube L2 transfer is almost negligible. This fee can be paid in any token supported by the ZKTube platform. The fee is used for L2 miner packaging and zero-knowledge proof verification.
+- **Deposit.** The ETH transaction fee generated by transferring money from an Ethereum Layer 1 account to a zkTube Layer 2 account, which is charged by Ethereum miners.
 
-Withdraw. There will be a transaction fee from the zkTube Layer 2 account to the Ethereum Layer 1 account, which can be paid with any tokens supported by the zkTube platform. The fee is used for the packing of the Layer 2 miners and the verification of the zero-knowledge proof.
+- **Transfer.** The transaction fee for zkTube L2 transfer is almost negligible. This fee can be paid in any token supported by the ZKTube platform. The fee is used for L2 miner packaging and zero-knowledge proof verification.
 
-Change pubkey. This will consume a small amount of ETH, which will be collected by Ethereum miners;
+- **Withdraw.** There will be a transaction fee from the zkTube Layer 2 account to the Ethereum Layer 1 account, which can be paid with any tokens supported by the zkTube platform. The fee is used for the packing of the Layer 2 miners and the verification of the zero-knowledge proof.
+
+- **Change pubkey.** This will consume a small amount of ETH, which will be collected by Ethereum miners;
 
 The zkTube protocol will use ZKT to offer a low or free service on DeFi, NFT and various SWAP services.
 
 ### 5.4 Economic Benefits
 
 The benefits generated by the zkTube agreement are divided into internal and external.
-Internal Benefits
+
+**Internal Benefits**
 
 First of all, compared with the Ethereum chain, transactions on zkTube have increased TPS and reduced transaction fees. TPS has increased from 14 to 3000+, and the fees have been reduced by about 100 times, improving overall transaction efficiency. This makes the transaction efficiency close to or even surpassing some centralized services; Secondly, zkTube supports the purchase and sale of fiat currencies from all over the world at Layer2, which further improves the circulation efficiency between fiat currencies and various tokens. Finally, there may be a small number of fees in circulation, which can be paid with any token.
 
-External Benefits
+**External Benefits**
 
 The underlying protocol of zkTube supports all kinds of applications including the applications of offline entity business attributes, which have been opened up with Layer 2 accounts. The application experience and centralization can be consistent. zkTube has confirmed the cooperation plan with the decentralized Dex Uniswap in the DeFi field. zkTube will provide agreement services to Uniswap to set up Layer 2 swap transactions, 3000+ TPS and very low transaction fees. This ensures that the performance of various swap transactions will not be affected, coupled with negligible transaction fees, will make swap replace centralized exchanges; however, in other areas of DeFi, such as decentralized insurance, decentralized mortgage lending and other fields, it also brings at least a 30 times increase in efficiency; such as NFT collections. Vouchers and games will all use the zkTube protocol to build applications quickly.
 
@@ -463,37 +472,41 @@ To reward early investors, ZKT will give some investors the right to govern the 
 
 ### 5.7 Mining Model
 
+![R = β * Dn + μ](@/R.png)
 
-  R：Miner's income per task
+R：Miner's income per task
   
-：Bonus base permission
+β：Bonus base permission
 
-：Degree of difficulty, Difficulty levels are
+![Dn](@/Dn.png)：Degree of difficulty, Difficulty levels are ![D](@/D1.png)
 
-: Miner's increasing coefficient
+μ: Miner's increasing coefficient
 
-Rules Description
+**Rules Description**
 
 1.When the number of miners is 0-5000，
-，.
+
+β = 5，μ = 0.
 
 2.When the number of miners is 5001-20,000，
 
-，=(Current number of miners)/5000.
+β = 5，μ =(Current number of miners)/5000.
 
 3.When the number of miners is 20,001-50,000，
 
-，=(Current number of miners)/20,000.
+β = 8，μ =(Current number of miners)/20,000.
 
 4.When the number of miners is 50,001-100,000，
 
-，=(Current number of miners)/50,000.
+β = 15，μ =(Current number of miners)/50,000.
 
 5.When the number of miners is 100,000，
-(Reaching the extreme),=(Current number of miners)/100,000.
 
-Data Model
+β = 20(Reaching the extreme), μ = (Current number of miners)/100,000.
 
+**Data Model**
+
+![Data Model](@/Data.png)
 
 
 ### 5.8 Release Rules

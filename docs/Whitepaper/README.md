@@ -13,57 +13,56 @@ To see what is contained in this document about the zkTube project, see the tabl
 
 
 ## Table of Contents 
+- [1. Project Background](#1-project-background)
+- [2. Introduction](#2-introduction)
+  - [2.1 zkTube Introduction](#21-zktube-introduction)
+  - [2.2 Functional Overview](#22-functional-overview)
+- [3. Frame Design](#3-frame-design)
+  - [3.1 Principle](#31-principle)
+  - [3.2 zkTube Operating Mechanism](#32-zktube-operating-mechanism)
+  - [3.3 Three Types of Operations for a Trader on Layer 2](#33-three-types-of-operations-for-a-trader-on-layer-2)
+  - [3.4 Batch](#34-batch)
+  - [3.5 Validity Proofs](#35-validity-proofs)
+  - [3.6 Compression Mechanism](#36-compression-mechanism)
+  - [3.7 Batch Packaging and State Root Isolation](#37-batch-packaging-and-state-root-isolation)
+  - [3.8 zkTube Technology Improvement (Based on PLONK Algorithm Optimization)](#38-zktube-technology-improvement-based-on-plonk-algorithm-optimization))
+  - [3.9 zkTube Scaling Effect](#39-zktube-scaling-effect)
+- [4. zkTube Protocol Support](#4-zktube-protocol-support)
+  - [4.1 Deposit](#41-deposit)
+  - [4.2 Transfer](#42-transfer)
+  - [4.3 Withdraw](#43-withdraw)
+  - [4.4 Buy](#44-buy)
+  - [4.5 Sell](#45-sell)
+  - [4.6 zkTube Scan](#46-zktube-scan)
+  - [4.7 NFT](#47-nft)
+  - [4.8 Cross Rollup](#48-cross-rollup)
+  - [4.9 Create a Wallet](#49-create-a-wallet)
+- [5. Economic Model](#5-economic-model)
+  - [5.1 Economic Design](#51-economic-design)
+  - [5.2 Consensus Design](#52-consensus-design)
+  - [5.3 Composition of Transaction Fees](#53-composition-of-transaction-fees)
+  - [5.4 Economic Benefits](#54-economic-benefits)
+  - [5.5 On-Chain Governance](#55-on-chain-governance)
+  - [5.6 Community Autonomy](#56-community-autonomy)
+  - [5.7 Mining Model](#57-mining-model)
+  - [5.8 Release Rules](#58-release-rules)
+  - [5.9 Miner's Admission Rules](#59-miners-admission-rules)
+  - [5.10 Liquidity Calculation](#510-liquidity-calculation)
+  - [5.11 ZKT Application](#511-zkt-application)
+- [6. Token Certificate](#6-token-certificate)
+  - [6.1 Token Certificate Function](#61-token-certificate-function)
+  - [6.2 Value of Token Certificate](#62-value-of-token-certificate)
+- [7. ZKT Asset System](#7-zkt-asset-system)
+  - [7.1 ZKT Circulation Mechanism](#71-zkt-circulation-mechanism)
+  - [7.2 ZKT Repurchase and Destruction](#72-zkt-repurchase-and-destruction)
+- [8. PayTube Wallet](#8-paytube-wallet)
+  - [8.1 PayTube Wallet - A Cross-Platform Mobile Wallet](#81-paytube-wallet-a-cross-platform-mobile-wallet)
+- [9. Team Members](#9-team-members)
+- [10. Roadmap](#10-roadmap)
+- [11. Disclaimer](#11-disclaimer)
 
-- [1. Project Background](#1.-Project-Background)
-- [2. Introduction:](#2.-Introduction:)
-  - [2.1. zkTube Introduction](#2.1.-zkTube-Introduction)
-  - [2.2 Functional Overview](#2.2.Functional-Overview)
-- [3. Frame Design](#3.-Frame-Design)
-  - [3.1 Principle](#3.1-Principle)
-  - [3.2. zkTube Operating Mechanism](#3.2.-zkTube-Operating-Mechanism)
-  - [3.3 Three Types of Operations for a Trader on Layer 2](#3.3-Three-Types-of-Operations-for-a-Trader-on-Layer-2)
-  - [3.4 Batch](#3.4-Batch)
-  - [3.5 Validity Proofs](#3.5-Validity-Proofs)
-  - [3.6 Compression Mechanism](#3.6-Compression-Mechanism)
-  - [3.7. Batch Packaging and State Root Isolation](#3.7.-Batch-Packaging-and-State-Root-Isolation)
-  - [3.8. zkTube Technology Improvement (Based on PLONK Algorithm Optimization)](#3.8.-zkTube-Technology-Improvement-(Based-on-PLONK-Algorithm-Optimization))
-  - [3.9 zkTube Scaling Effect](#3.9-zkTube-Scaling-Effect)
-- [4. zkTube Protocol Support](#4.-zkTube-Protocol-Support)
-  - [4.1 Deposit](#4.1-eposit)
-  - [4.2 Transfer](#4.2-Transfe)
-  - [4.3 Withdraw](#4.3-Withdraw)
-  - [4.4 Buy](#4.4-Buy)
-  - [4.5 Sell](#4.5-ell)
-  - [4.6 zkTube Scan](#4.6-zkTube-Scan)
-  - [4.7 NFT](#4.7-NFT)
-  - [4.8. Cross Rollup](#4.8.-Cross-Rollup)
-  - [4.9 Create a Wallet](#4.9-Create-a-Wallet)
-- [5. Economic Model](#5.-Economic-Model)
-  - [5.1 Economic Design](#5.1-Economic-Design)
-  - [5.2 Consensus Design](#5.2-Consensus-Design)
-  - [5.3 Composition of Transaction Fees](#5.3-Composition-of-Transaction-Fees)
-  - [5.4 Economic Benefits](#5.4-Economic-Benefits)
-  - [5.5 On-Chain Governance](#5.5-On-Chain-Governance)
-  - [5.6 Community Autonomy](#5.6-Community-Autonomy)
-  - [5.7 Mining Model](#5.7-Mining-Model)
-  - [5.8 Release Rules](#5.8-Release-Rules)
-  - [5.9 Miner's Admission Rules](#5.9-Miner's-Admission-Rules)
-  - [5.10 Liquidity Calculation](#5.10-Liquidity-Calculation)
-  - [5.11 ZKT Application](#5.11-ZKT-Application)
-- [6. Token Certificate](#6.-Token-Certificate)
-  - [6.1 Token Certificate Function](#6.1-Token-Certificate-Function)
-  - [6.2 Value of Token Certificate](#6.2-Value-of-Token-Certificate)
-- [7. ZKT Asset System](#7.-ZKT-Asset-System)
-  - [7.1 ZKT Circulation Mechanism](#7.1-ZKT-Circulation-Mechanism)
-  - [7.2 ZKT Repurchase and Destruction](#7.2-ZKT-Repurchase-and-Destruction)
-- [8. PayTube Wallet](#8.-PayTube-Wallet)
-  - [8.1. PayTube Wallet — A Cross-Platform Mobile Wallet](#8.1.-PayTube-Wallet-—-A-Cross-Platform-Mobile-Wallet)
-- [9. Team Members](#9.-Team-Members)
-- [10. Roadmap](#10.-Roadmap)
-- [11. Disclaimer](#11.-Disclaimer)
 
-
-## 1.Project Background
+## 1. Project Background
 
 Nowadays, the problems of Ethereum network congestion and high handling fees are becoming more and more serious. Solving the problem of network congestion and achieving scaling is the direction that many researchers have been working hard on.
 
@@ -75,7 +74,7 @@ Today, zkTube Labs is honored to introduce to you our masterpiece: Ethereum's tr
 
 zkTube is based on the concept of zkRollup. In short, zkRollup is a Layer 2 scaling solution, in which all funds are held by smart contracts on the main chain, and calculations and storage are performed off-chain. Each Rollup block will generate a state transition Zero-Knowledge proof, which is verified by the main chain contract. SNARK contains proof of the validity of each transaction in the Rollup block. In addition, the public data update of each block is released as low-cost call data on the main chain network.
 
-## 2. Introduction:
+## 2. Introduction
 
 ### 2.1 zkTube Introduction
 
@@ -129,6 +128,7 @@ By using the underlying protocol of zkTube, the ETH Gas charge is reduced, and u
 ## 3. Frame Design
 
 ### 3.1 Principle
+
 ![Principle](@/Principle.png)
 
 The first account with an account ID of 0 is used for depositing the storage cost until it is withdrawn to L1. 
@@ -608,7 +608,7 @@ ZKT is the only Token certificate of the zkTube protocol, and its value depends 
 
 ZKT can be used as fuel to pay network fees, which has use value and can be used as a dividend voucher, which can produce certain value by itself.
 
-## 7.ZKT Asset System
+## 7. ZKT Asset System
 
 ### 7.1 ZKT Circulation Mechanism
 
@@ -663,7 +663,7 @@ The zkTube Official will use a certain percentage of transaction fees to repurch
 
 ## 8. PayTube Wallet
 
-### 8.1. PayTube Wallet — A Cross-Platform Mobile Wallet
+### 8.1 PayTube Wallet - A Cross-Platform Mobile Wallet
 
 PayTube Wallet is a Web3.0 application on the zkTube network. Users can access any Ethereum Dapp through a one-click link to the wallet. After the connection is established, users can buy/sell cryptocurrency, explore Dapp, staking, insurance, games and a series of operations.
 

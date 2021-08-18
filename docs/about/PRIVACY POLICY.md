@@ -80,7 +80,7 @@ Personal Information is collected in order to:
 
 You have the right to access the Personal Information we hold about you, and to require the correction, updating and blocking of inaccurate and/or incorrect data by sending an email to us. We will usually respond to your request within 21 days. You may also request the deletion or destruction of your Personal Information, your Account details or your Transaction details by sending an email to us. zkTube will act on your request only when it is not inconsistent with its legal and regulatory obligations and compliance procedures. Upon your written request, we will inform you of the use and general disclosure of your Personal Information. Depending on the nature of your request, there may be a minimal charge for accessing your Personal Information.
 
-H.Security
+## H.Security
 
 We take reasonable steps to protect your Personal Information from misuse, loss, unauthorised access, modification or disclosure, including implementing appropriate security measures. The security measures in place will, from time to time, be reviewed in line with legal and technical developments. However, we give no guarantee that such misuse, loss, unauthorised access, modification or disclosure will not occur. There are protective measures that you should take which as well include but are not limited to changing password regularly, not sharing your Personal Information with other unless you clearly understand the purpose of their request and you know with whom you are dealing.
 

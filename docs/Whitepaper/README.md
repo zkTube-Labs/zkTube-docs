@@ -690,7 +690,7 @@ PayTube Wallet will:
 
 **[Please audit the majority of team members from the below link]**
 
-[https://drive.google.com/file/d/18pdIs5HXRc4NW4MhTE5SjOQATuV_oZPV/view?usp=sharing](https://drive.google.com/file/d/18pdIs5HXRc4NW4MhTE5SjOQATuV_oZPV/view?usp=sharing）
+[https://drive.google.com/file/d/18pdIs5HXRc4NW4MhTE5SjOQATuV_oZPV/view?usp=sharing](https://drive.google.com/file/d/18pdIs5HXRc4NW4MhTE5SjOQATuV_oZPV/view?usp=sharing)
 
 ## 10. Roadmap
 

@@ -84,7 +84,7 @@
 
 ### Step 3: Input the Staking amount, confirm the order and enter the password to complete the ZKT Staking. After the Staking is successful, you can start the mining program to perform normal mining. 
  
-Note: The address of the Staking account must be consistent with the revenue address of the mining program, otherwise the mining program cannot be started.
+ <font color='red'> Note: The address of the Staking account must be consistent with the revenue address of the mining program, otherwise the mining program cannot be started.</font>
 
 ![https://file.zktube.io/images/mining-docs/image23.png](https://file.zktube.io/images/mining-docs/image23.png) ![https://file.zktube.io/images/mining-docs/image24.png](https://file.zktube.io/images/mining-docs/image24.png)
 

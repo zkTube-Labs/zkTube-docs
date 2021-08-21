@@ -17,8 +17,8 @@ module.exports = {
             //     link:'/Tutorials/'
             // },
             // {
-            //     text:'PayTubeDocs',
-            //     link:'/PayTubeDocs/'
+            //     text:'PayTube docs',
+            //     link:'/PayTube docs/'
             // },
             {
                 text:'FAQ',
@@ -34,9 +34,9 @@ module.exports = {
             },
         ],
         sidebar:{
-              '/PayTubeDocs/':[
-                '/PayTubeDocs/',
-                '/PayTubeDocs/PRIVACY POLICY',
+              '/PayTube docs/':[
+                '/PayTube docs/',
+                '/PayTube docs/PRIVACY POLICY',
               ],
              '/Whitepaper/':[
                 '/Whitepaper/',

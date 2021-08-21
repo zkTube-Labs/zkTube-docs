@@ -12,6 +12,10 @@ module.exports = {
                // text:'Witepaper',
                // link:'/Witepaper/'
            // },
+             // {
+            //     text:'Tutorials',
+            //     link:'/Tutorials/'
+            // },
             {
                 text:'FAQ',
                 link:'/faq/'
@@ -28,6 +32,9 @@ module.exports = {
         sidebar:{
              '/Whitepaper/':[
                 '/Whitepaper/',
+              ],
+            '/Tutorials/':[
+                '/Tutorials/',
               ],
             '/faq/': [
                 {

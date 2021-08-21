@@ -16,6 +16,10 @@ module.exports = {
             //     text:'Tutorials',
             //     link:'/Tutorials/'
             // },
+            // {
+            //     text:'PayTubeDocs',
+            //     link:'/PayTubeDocs/'
+            // },
             {
                 text:'FAQ',
                 link:'/faq/'
@@ -30,6 +34,10 @@ module.exports = {
             },
         ],
         sidebar:{
+              '/PayTubeDocs/':[
+                '/PayTubeDocs/',
+                '/PayTubeDocs/PRIVACY POLICY',
+              ],
              '/Whitepaper/':[
                 '/Whitepaper/',
               ],

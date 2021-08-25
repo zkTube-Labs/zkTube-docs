@@ -27,7 +27,7 @@
 
  **a. Download it by scanning the QR code below**
  
-![https://file.zktube.io/images/mining-docs/image6.png](https://file.zktube.io/images/mining-docs/image6.png)
+![https://file.zktube.io/images/mining-docs-v2/001.png](https://file.zktube.io/images/mining-docs-v2/001.png)
 
 **b. Download it through the App store**
 
@@ -43,31 +43,31 @@
 
 ### Step 1: Click the [Whitelist Mapping] section to the Mapping page;
 
-![https://file.zktube.io/images/mining-docs/image7.png](https://file.zktube.io/images/mining-docs/image7.png)
+![https://file.zktube.io/images/mining-docs-v2/002.png](https://file.zktube.io/images/mining-docs-v2/002.png)
 
 ### Step 2: Click [+] to select the Mapping account;
 
-![https://file.zktube.io/images/mining-docs/image8.png](https://file.zktube.io/images/mining-docs/image8.png) ![https://file.zktube.io/images/mining-docs/image9.png](https://file.zktube.io/images/mining-docs/image9.png)
+![https://file.zktube.io/images/mining-docs-v2/003.png](https://file.zktube.io/images/mining-docs-v2/003.png) ![https://file.zktube.io/images/mining-docs-v2/004.png](https://file.zktube.io/images/mining-docs-v2/004.png)
 
 ### Step 3: Authorization is required for the first time to Deposit ZKTR, click [Authorize] and confirm the authorization, if it's successful, please go to Step 4;
 
-![https://file.zktube.io/images/mining-docs/image10.png](https://file.zktube.io/images/mining-docs/image10.png) ![https://file.zktube.io/images/mining-docs/image11.png](https://file.zktube.io/images/mining-docs/image11.png)
+![https://file.zktube.io/images/mining-docs-v2/005.png](https://file.zktube.io/images/mining-docs-v2/005.png) ![https://file.zktube.io/images/mining-docs-v2/006.png](https://file.zktube.io/images/mining-docs-v2/006.png)
 
 ### Step 4: Click the [Deposit ZKTR] button and input the quantity of ZKTR that needs to be mapped. Before Deposit ZKTR, please ensure that there is a small amount of ETH in this account as Gas fee;
 
-![https://file.zktube.io/images/mining-docs/image12.png](https://file.zktube.io/images/mining-docs/image12.png) ![https://file.zktube.io/images/mining-docs/image13.png](https://file.zktube.io/images/mining-docs/image13.png)
+![https://file.zktube.io/images/mining-docs-v2/007.png](https://file.zktube.io/images/mining-docs-v2/007.png) ![https://file.zktube.io/images/mining-docs-v2/008.png](https://file.zktube.io/images/mining-docs-v2/008.png)
  
 ### Step 5: Confirm the order and enter the password, click【Confirm】to complete the ZKTR Mapping, return to the home page to view the quantity of ZKT;
 
-![https://file.zktube.io/images/mining-docs/image14.png](https://file.zktube.io/images/mining-docs/image14.png) ![https://file.zktube.io/images/mining-docs/image15.png](https://file.zktube.io/images/mining-docs/image15.png)
+![https://file.zktube.io/images/mining-docs-v2/009.png](https://file.zktube.io/images/mining-docs-v2/009.png) ![https://file.zktube.io/images/mining-docs-v2/010.png](https://file.zktube.io/images/mining-docs-v2/010.png)
 
 ### Step 6: The ZKT can be withdrawn to the wallet, click [Withdraw ZKT], enter the amount of Withdraw and click the【Next】 button;
 
-![https://file.zktube.io/images/mining-docs/image16.png](https://file.zktube.io/images/mining-docs/image16.png) ![https://file.zktube.io/images/mining-docs/image17.png](https://file.zktube.io/images/mining-docs/image17.png)
+![https://file.zktube.io/images/mining-docs-v2/011.png](https://file.zktube.io/images/mining-docs-v2/011.png) ![https://file.zktube.io/images/mining-docs-v2/012.png](https://file.zktube.io/images/mining-docs-v2/012.png)
 
 ### Step 7: Confirm the order and enter the password, click【Next】to complete the ZKT Withdraw;
 
-![https://file.zktube.io/images/mining-docs/image18.png](https://file.zktube.io/images/mining-docs/image18.png) ![https://file.zktube.io/images/mining-docs/image19.png](https://file.zktube.io/images/mining-docs/image19.png)
+![https://file.zktube.io/images/mining-docs-v2/013.png](https://file.zktube.io/images/mining-docs-v2/013.png) ![https://file.zktube.io/images/mining-docs-v2/014.png](https://file.zktube.io/images/mining-docs-v2/014.png)
 
 
 
@@ -76,25 +76,25 @@
 
 ### Step 1: Click the [Tickets for miners] to the Staking page;
 
-![https://file.zktube.io/images/mining-docs/image20.png](https://file.zktube.io/images/mining-docs/image20.png)
+![https://file.zktube.io/images/mining-docs-v2/015.png](https://file.zktube.io/images/mining-docs-v2/015.png)
 
 ### Step 2: Authorization is required for the first time to Stake ZKT, click [Authorize] and confirm the authorization, if it's successful, please go to Step 3;
 
-![https://file.zktube.io/images/mining-docs/image21.png](https://file.zktube.io/images/mining-docs/image21.png) ![https://file.zktube.io/images/mining-docs/image22.png](https://file.zktube.io/images/mining-docs/image22.png)
+![https://file.zktube.io/images/mining-docs-v2/016.png](https://file.zktube.io/images/mining-docs-v2/016.png) ![https://file.zktube.io/images/mining-docs-v2/017.png](https://file.zktube.io/images/mining-docs-v2/017.png)
 
 ### Step 3: Input the Staking amount, confirm the order and enter the password to complete the ZKT Staking. After the Staking is successful, you can start the mining program to perform normal mining. 
  
  <font color='red'> Note: The address of the Staking account must be consistent with the revenue address of the mining program, otherwise the mining program cannot be started.</font>
 
-![https://file.zktube.io/images/mining-docs/image23.png](https://file.zktube.io/images/mining-docs/image23.png) ![https://file.zktube.io/images/mining-docs/image24.png](https://file.zktube.io/images/mining-docs/image24.png)
+![https://file.zktube.io/images/mining-docs-v2/018.png](https://file.zktube.io/images/mining-docs-v2/018.png) ![https://file.zktube.io/images/mining-docs-v2/019.png](https://file.zktube.io/images/mining-docs-v2/019.png)
 
 ### Step 4: Each Staking amount can be redeemed only after one year, click [Ransom] for redemption. Click the Staking account to view the list of mining machines;
 
-![https://file.zktube.io/images/mining-docs/image25.png](https://file.zktube.io/images/mining-docs/image25.png) ![https://file.zktube.io/images/mining-docs/image26.png](https://file.zktube.io/images/mining-docs/image26.png)
+![https://file.zktube.io/images/mining-docs-v2/020.png](https://file.zktube.io/images/mining-docs-v2/020.png) ![https://file.zktube.io/images/mining-docs-v2/021.png](https://file.zktube.io/images/mining-docs-v2/021.png)
 
 ### Step 5: Any Staking can only be redeemed if it meets the requirement of one year. Enter the redemption amount and confirm the order. Click【Confirm】and enter the password to complete the redemption operation.
 
-![https://file.zktube.io/images/mining-docs/image27.png](https://file.zktube.io/images/mining-docs/image27.png) ![https://file.zktube.io/images/mining-docs/image28.png](https://file.zktube.io/images/mining-docs/image28.png)
+![https://file.zktube.io/images/mining-docs-v2/022.png](https://file.zktube.io/images/mining-docs-v2/022.png) ![https://file.zktube.io/images/mining-docs-v2/023.png](https://file.zktube.io/images/mining-docs-v2/023.png)
 
 
 
@@ -103,20 +103,20 @@
 
 ### Step 1: Click the [Mining revenue] to its page;
 
-![https://file.zktube.io/images/mining-docs/image29.png](https://file.zktube.io/images/mining-docs/image29.png)
+![https://file.zktube.io/images/mining-docs-v2/024.png](https://file.zktube.io/images/mining-docs-v2/024.png)
 
 ### Step 2: Show all mining accounts, click [Gain] to enter the Mining revenue page, click account to view the list of mining machines;
 
-![https://file.zktube.io/images/mining-docs/image30.png](https://file.zktube.io/images/mining-docs/image30.png) ![https://file.zktube.io/images/mining-docs/image31.png](https://file.zktube.io/images/mining-docs/image31.png)
+![https://file.zktube.io/images/mining-docs-v2/025.png](https://file.zktube.io/images/mining-docs-v2/025.png) ![https://file.zktube.io/images/mining-docs-v2/026.png](https://file.zktube.io/images/mining-docs-v2/026.png)
 
 ### Step 3: To view specific mining details, please visit zkTube Scan browser;
 
 **Link:** [https://rinkeby-browser.zktube.io/](https://rinkeby-browser.zktube.io/)
 
-![https://file.zktube.io/images/mining-docs/image32.png](https://file.zktube.io/images/mining-docs/image32.png)
+![https://file.zktube.io/images/mining-docs-v2/027.png](https://file.zktube.io/images/mining-docs-v2/027.png)
 
 ### Step 4: Click [Next] to confirm the order, click [Confirm] again and input the password to complete the Gain operation.
 
-![https://file.zktube.io/images/mining-docs/image33.png](https://file.zktube.io/images/mining-docs/image33.png) ![https://file.zktube.io/images/mining-docs/image34.png](https://file.zktube.io/images/mining-docs/image34.png)
+![https://file.zktube.io/images/mining-docs-v2/028.png](https://file.zktube.io/images/mining-docs-v2/028.png) ![https://file.zktube.io/images/mining-docs-v2/029.png](https://file.zktube.io/images/mining-docs-v2/029.png)
 
 

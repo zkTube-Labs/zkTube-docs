@@ -61,7 +61,7 @@
 
 ![https://file.zktube.io/images/mining-docs-v3/009.png](https://file.zktube.io/images/mining-docs-v3/009.png) ![https://file.zktube.io/images/mining-docs-v3/010.png](https://file.zktube.io/images/mining-docs-v3/010.png)
 
-### Step 6: The ZKT can be withdrawn to the wallet, click [Withdraw ZKT], enter the amount of Withdraw and click the【Next】 button;
+### Step 6: According to the mapping release rules, ZKT can be released after 7 days, and can be Withdraw to the wallet, click [Withdraw ZKT], input the Withdraw quantity and click [Next].;
 
 ![https://file.zktube.io/images/mining-docs-v3/011.png](https://file.zktube.io/images/mining-docs-v3/011.png) ![https://file.zktube.io/images/mining-docs-v3/012.png](https://file.zktube.io/images/mining-docs-v3/012.png)
 

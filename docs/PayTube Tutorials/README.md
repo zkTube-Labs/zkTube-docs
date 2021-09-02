@@ -6,50 +6,63 @@
 
 ### Step 2: Switch to the testnet Rinkeby network on the Profile page or Home page;
 
-![https://file.zktube.io/images/mining-docs/image2.png](https://file.zktube.io/images/mining-docs/image2.png)
+![https://file.zktube.io/images/paytube-docs/Paytube001.png](https://file.zktube.io/images/paytube-docs/Paytube001.png) ![https://file.zktube.io/images/paytube-docs/Paytube002.png](https://file.zktube.io/images/paytube-docs/Paytube002.png)
+
+![https://file.zktube.io/images/paytube-docs/Paytube003.png](https://file.zktube.io/images/paytube-docs/Paytube003.png) ![https://file.zktube.io/images/paytube-docs/Paytube004.png](https://file.zktube.io/images/paytube-docs/Paytube004.png) ![https://file.zktube.io/images/paytube-docs/Paytube005.png](https://file.zktube.io/images/paytube-docs/Paytube005.png)
  
 ### Step 3: Click the [Send] button or transfer out via [Scan];
 
-![https://file.zktube.io/images/mining-docs/image2.png](https://file.zktube.io/images/mining-docs/image2.png)
+![https://file.zktube.io/images/paytube-docs/Paytube006.png](https://file.zktube.io/images/paytube-docs/Paytube006.png)
 
 ### Step 4: Select the token, input the To address and fill in the quantity, click [Next] & [Confirm] to complete the transfer;
 
-图片: https://uploader.shimo.im/f/lRkdHUDBppU2Xb3G.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/iOAbORu129u2vslt.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube007.png](https://file.zktube.io/images/paytube-docs/Paytube007.png) ![https://file.zktube.io/images/paytube-docs/Paytube008.png](https://file.zktube.io/images/paytube-docs/Paytube008.png)
+
 ### Step 5: Click [Receive] and copy address to collect payment;
 
-图片: https://uploader.shimo.im/f/XLI5PQuxPRYv40f5.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/jrAQVGFVGDXuhfc8.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube009.png](https://file.zktube.io/images/paytube-docs/Paytube009.png) ![https://file.zktube.io/images/paytube-docs/Paytube010.png](https://file.zktube.io/images/paytube-docs/Paytube010.png)
+
 ## 2. Layer 2 Operation Process
 
 ### Step 1: Before operating the L2 functions, you need to unlock the account first, and Deposit a sum of ETH to the L2 account;
 
-图片: https://uploader.shimo.im/f/kIwHqq2Ev55w5UUE.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube011.png](https://file.zktube.io/images/paytube-docs/Paytube011.png)
+
 ### Step 2: Input the amount of ETH, click [Next] & [Confirm] to complete the operation;
 
-图片: https://uploader.shimo.im/f/viap7qiNIqkm34az.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/SGrWfzhKqOuBIpXF.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube012.png](https://file.zktube.io/images/paytube-docs/Paytube012.png) ![https://file.zktube.io/images/paytube-docs/Paytube013.png](https://file.zktube.io/images/paytube-docs/Paytube013.png)
+
 ### Step 3: When depositing ERC-20 tokens, each one of them needs to be authorized for the first time, and the authorized token can be directly deposited. Click [Authorize] to input the password to complete the operation;
 
-图片: https://uploader.shimo.im/f/a4KdkqJx84JiBRys.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube014.png](https://file.zktube.io/images/paytube-docs/Paytube014.png)
+
 ### Step 4: Click [Unlock] to confirm the order and click [Confirm] to complete the operation;
 
-图片: https://uploader.shimo.im/f/BnJcygtYA1kJS5rU.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/PBj8j0eGNujxMiHH.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube015.png](https://file.zktube.io/images/paytube-docs/Paytube015.png) ![https://file.zktube.io/images/paytube-docs/Paytube016.png](https://file.zktube.io/images/paytube-docs/Paytube016.png)
+
 
 ### Step 5: Click [Transfer] to confirm the operation;
 
-图片: https://uploader.shimo.im/f/bRz4WFgEFmzJhewK.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube017.png](https://file.zktube.io/images/paytube-docs/Paytube017.png)
+
 ### Step 6: Input the quantity and fill in the To address, click  [Next] to confirm the order and click [Confirm] to complete the Transfer operation;
 
-图片: https://uploader.shimo.im/f/SfcGmV6FudV49UW4.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/9ODOW7oNVpFiePhk.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube018.png](https://file.zktube.io/images/paytube-docs/Paytube018.png) ![https://file.zktube.io/images/paytube-docs/Paytube019.png](https://file.zktube.io/images/paytube-docs/Paytube019.png)
+
 ### Step 7: Click [Withdraw] and confirm to enter the Withdraw operation;
 
-图片: https://uploader.shimo.im/f/kvIkK6Xxb2xQVAP2.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube020.png](https://file.zktube.io/images/paytube-docs/Paytube020.png)
+
 ### Step 8: Input the quantity and fill in the To address, click [Next] to confirm the order and click [Confirm] to complete the Withdraw operation.
 
-图片: https://uploader.shimo.im/f/c0bXP8E2oGEJS8TM.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/Mkfpc4WO0z0pC84E.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube021.png](https://file.zktube.io/images/paytube-docs/Paytube021.png) ![https://file.zktube.io/images/paytube-docs/Paytube022.png](https://file.zktube.io/images/paytube-docs/Paytube022.png)
+
 ## 3. Connect to Uniswap V3 Process
 
 ### Step 1: Click the [Jump to] button to enter the Dapps list, and click [View] to enter the V3 application;
 
-图片: https://uploader.shimo.im/f/eAcqp3j9WQA3U1SF.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/Grl3KoRUVEt6eC4h.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube023.png](https://file.zktube.io/images/paytube-docs/Paytube023.png) ![https://file.zktube.io/images/paytube-docs/Paytube024.png](https://file.zktube.io/images/paytube-docs/Paytube024.png)
+
 ### Step 2: Click [Connect Wallet] and select [Injected] to connect your wallet.
 
-图片: https://uploader.shimo.im/f/m5S5nwKx9vhruT0x.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/suHEjrpzX0mQisXM.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/paytube-docs/Paytube025.png](https://file.zktube.io/images/paytube-docs/Paytube025.png) ![https://file.zktube.io/images/paytube-docs/Paytube026.png](https://file.zktube.io/images/paytube-docs/Paytube026.png)

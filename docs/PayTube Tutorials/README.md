@@ -6,12 +6,11 @@
 
 ### Step 2: Switch to the testnet Rinkeby network on the Profile page or Home page;
 
-图片: https://uploader.shimo.im/f/gE7Wxm1vvOlC5aQO.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/gbOqMcGSCBOK6zwl.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
-图片: https://uploader.shimo.im/f/xPWskVAr14VGBCgi.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/TbFkwrUYUQromovB.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k图片: https://uploader.shimo.im/f/UPYKlAzDVkNSkRht.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/mining-docs/image2.png](https://file.zktube.io/images/mining-docs/image2.png)
  
 ### Step 3: Click the [Send] button or transfer out via [Scan];
 
-图片: https://uploader.shimo.im/f/fpK1meFNX6b6vEjK.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzA1NjU5MjEsImciOiIxamxSYldQSU5Nb1MxaElZIiwiaWF0IjoxNjMwNTY1NjIxLCJ1c2VySWQiOjY5NzQ4MjQ4fQ.A-ypBJaNnZFHKWuOrlhPJAX274J2Zc_NQHmEmImZf-k
+![https://file.zktube.io/images/mining-docs/image2.png](https://file.zktube.io/images/mining-docs/image2.png)
 
 ### Step 4: Select the token, input the To address and fill in the quantity, click [Next] & [Confirm] to complete the transfer;
 

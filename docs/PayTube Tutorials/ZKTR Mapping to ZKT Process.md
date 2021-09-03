@@ -2,7 +2,7 @@
 
 ## Step 1: Please make sure it's in the Mainnet environment, click the [Whitelist Mapping] section to the Mapping page;
 
-![https://file.zktube.io/images/paytube-docs/paytube101.png](https://file.zktube.io/images/paytube-docs/paytube101.png)
+![https://file.zktube.io/images/paytube-docs/paytube1011.png](https://file.zktube.io/images/paytube-docs/paytube1011.png)
 
 ## Step 2: Click [+] to select the Mapping account;
 

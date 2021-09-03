@@ -42,8 +42,9 @@ module.exports = {
                 '/PayTube docs/',
                 '/PayTube docs/PRIVACY POLICY',
               ],
-             '/PayTube docs/':[
-                '/PayTube docs/',
+             '/PayTube Tutorials/':[
+                '/PayTube Tutorials/',
+                 '/PayTube Tutorials/ZKTR Mapping to ZKT Process',
               ],
              '/Whitepaper/':[
                 '/Whitepaper/',

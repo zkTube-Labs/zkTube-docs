@@ -44,7 +44,7 @@ module.exports = {
               ],
              '/PayTube Tutorials/':[
                 '/PayTube Tutorials/',
-                 '/PayTube docs/ZKTR Mapping to ZKT Process',
+                 '/PayTube Tutorials/ZKTR Mapping to ZKT Process',
               ],
              '/Whitepaper/':[
                 '/Whitepaper/',

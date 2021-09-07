@@ -70,7 +70,7 @@ A successful solution to the scaling problem of public blockchain is not only re
 
 In the absence of technological breakthroughs, existing scaling solutions have to make major compromises to one or more of the above requirements. Fortunately, the latest developments in Zero-Knowledge proofs have opened up entirely new possibilities for solving this problem.
 
-Today, zkTube Labs is honored to introduce to you our masterpiece: Ethereum's trustless scaling and economic applicability solution based on zkRollup, emphasizing the excellent experience of users and developers. The zkTube Protocol is designed to bring visa-level throughput of thousands of transactions per second to Ethereum, while ensuring that funds are as safe as Layer 1 accounts and maintain a high degree of censorship resistance.
+Today, zkTube is honored to introduce to you our masterpiece: Ethereum's trustless scaling and economic applicability solution based on zkRollup, emphasizing the excellent experience of users and developers. The zkTube Protocol is designed to bring visa-level throughput of thousands of transactions per second to Ethereum, while ensuring that funds are as safe as Layer 1 accounts and maintain a high degree of censorship resistance.
 
 zkTube is based on the concept of zkRollup. In short, zkRollup is a Layer 2 scaling solution, in which all funds are held by smart contracts on the main chain, and calculations and storage are performed off-chain. Each Rollup block will generate a state transition Zero-Knowledge proof, which is verified by the main chain contract. SNARK contains proof of the validity of each transaction in the Rollup block. In addition, the public data update of each block is released as low-cost call data on the main chain network.
 
@@ -715,5 +715,5 @@ Through the Web 3.0, Dapp PayTube Wallet is based on the zkTube protocol. To ach
  
 2. This document is not a binding contractual agreement between zkTube and its investors, as this will change with the further development of zkTube.
  
-3. zkTube Labs does not make any promises or guarantees for the completeness and trend judgment of the content of this document. The current analysis does not necessarily represent future development opinions, and any investment behavior may cause asset losses. Anyone making investment decisions based on this document will be doing so at their own risk.
+3. zkTube does not make any promises or guarantees for the completeness and trend judgment of the content of this document. The current analysis does not necessarily represent future development opinions, and any investment behavior may cause asset losses. Anyone making investment decisions based on this document will be doing so at their own risk.
 

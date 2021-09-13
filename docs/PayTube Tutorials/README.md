@@ -59,10 +59,7 @@
 
 ## 3. Connect to Uniswap V3 Process
 
-### Step 1: Click the [Jump to] button to enter the Dapps list, and click [View] to enter the V3 application;
+### Step 1: Click the [Jump to] button to enter the Dapps list, and click [View] to enter the V3 application
 
-![https://file.zktube.io/images/paytube-docs/Paytube023.png](https://file.zktube.io/images/paytube-docs/Paytube023.png) ![https://file.zktube.io/images/paytube-docs/Paytube024.png](https://file.zktube.io/images/paytube-docs/Paytube024.png)
+![https://file.zktube.io/images/paytube-docs/Paytube027.png](https://file.zktube.io/images/paytube-docs/Paytube027.png)
 
-### Step 2: Click [Connect Wallet] and select [Injected] to connect your wallet.
-
-![https://file.zktube.io/images/paytube-docs/Paytube025.png](https://file.zktube.io/images/paytube-docs/Paytube025.png) ![https://file.zktube.io/images/paytube-docs/Paytube026.png](https://file.zktube.io/images/paytube-docs/Paytube026.png)

@@ -1,99 +1,86 @@
-const path = require('path')
+const path = require("path");
 module.exports = {
-    base: '/',
-    themeConfig: {
-        logo: '/logo.png',
-        nav:[
-            // {
-            //     text:'Docs',
-            //     link:'/'
-            // },
-            //{
-               // text:'Witepaper',
-               // link:'/Witepaper/'
-           // },
-             // {
-            //     text:'Tutorials',
-            //     link:'/Tutorials/'
-            // },
-            // {
-            //     text:'PayTube docs',
-            //     link:'/PayTube docs/'
-            // },
-             // {
-            //     text:'PayTube Tutorials',
-            //     link:'/PayTube Tutorials/'
-            // },
-            {
-                text:'FAQ',
-                link:'/faq/'
-            },
-            {
-              text:'Connect',
-              link:'/connect/'
-            },
-            {
-              text:'About',
-              link:'/about/'
-            },
-        ],
-        sidebar:{
-              '/PayTube docs/':[
-                '/PayTube docs/',
-                '/PayTube docs/PRIVACY POLICY',
-              ],
-             '/PayTube Tutorials/':[
-                '/PayTube Tutorials/',
-                 '/PayTube Tutorials/ZKTR Mapping to ZKT Process',
-              ],
-             '/Whitepaper/':[
-                '/Whitepaper/',
-              ],
-            '/Tutorials/':[
-                '/Tutorials/',
-              ],
-            '/faq/': [
-                {
-                    path:'/faq/',
-                    title:'What address should I use for a donation'
-                },
-                // '/faq/What address should I use for a donation',
-                      '/faq/What is the donation link',
-                      '/faq/Do we have official WeChat group',
-                      '/faq/Where do I get my test coin',
-                      '/faq/What is zktube',
-                      '/faq/When can I know if I’m on the whitelist',
-                      '/faq/Who can I contact to propose an AMA session and collaboration',
-                      '/faq/Does the private ZKT coin need lock position',
-                      '/faq/Does zktube have a miner',
-                      '/faq/A total of 100000 pieces can be subscribed',
-              ],
-              '/connect/':[
-                '/connect/',
-              ],
-              '/about/':[
-                '/about/',
-                 '/about/PRIVACY POLICY',
-              ],
-            
-              // '/': [
-              //     '/Introduction',      
-              // ],
-            
-        }
-
+  base: "/",
+  themeConfig: {
+    logo: "/logo.png",
+    nav: [
+      // {
+      //     text:'Docs',
+      //     link:'/'
+      // },
+      //{
+      // text:'Witepaper',
+      // link:'/Witepaper/'
+      // },
+      // {
+      //     text:'Tutorials',
+      //     link:'/Tutorials/'
+      // },
+      // {
+      //     text:'PayTube docs',
+      //     link:'/PayTube docs/'
+      // },
+      // {
+      //     text:'PayTube Tutorials',
+      //     link:'/PayTube Tutorials/'
+      // },
+      {
+        text: "FAQ",
+        link: "/faq/",
+      },
+      {
+        text: "Connect",
+        link: "/connect/",
+      },
+      {
+        text: "About",
+        link: "/about/",
+      },
+    ],
+    sidebar: {
+      "/PayTube docs/": ["/PayTube docs/", "/PayTube docs/PRIVACY POLICY"],
+      "/PayTube Tutorials/": [
+        "/PayTube Tutorials/",
+        "/PayTube Tutorials/ZKTR Mapping to ZKT Process",
+      ],
+      "/Whitepaper/": ["/Whitepaper/"],
+      "/Tutorials/": ["/Tutorials/"],
+      "/faq/": [
+        {
+          path: "/faq/",
+          title: "What address should I use for a donation",
+        },
+        // '/faq/What address should I use for a donation',
+        "/faq/What is the donation link",
+        "/faq/Do we have official WeChat group",
+        "/faq/Where do I get my test coin",
+        "/faq/What is zktube",
+        "/faq/When can I know if I’m on the whitelist",
+        "/faq/Who can I contact to propose an AMA session and collaboration",
+        "/faq/Does the private ZKT coin need lock position",
+        "/faq/Does zktube have a miner",
+        "/faq/A total of 100000 pieces can be subscribed",
+      ],
+      "/connect/": ["/connect/"],
+      "/about/": ["/about/", "/about/PRIVACY POLICY"],
+      "/zkTube Mining Tutorials/": ["/zkTube Mining Tutorials/"],
+      // '/': [
+      //     '/Introduction',
+      // ],
     },
-    smoothScroll: true,
-    configureWebpack: {
-      resolve: {
-        alias: {
-          '@': resolve('/.vuepress/public')
-        }
-      }
+  },
+  smoothScroll: true,
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "@": resolve("/.vuepress/public"),
+      },
     },
-    head: [
-      ['link', { rel: 'icon', href: '/favicon.png' }],
-      ['script',
+  },
+  head: [
+    ["link", { rel: "icon", href: "/favicon.png" }],
+    [
+      "script",
       {},
       `
       const logoClick = setInterval(function() {
@@ -112,11 +99,11 @@ module.exports = {
           logoEl.setAttribute("onclick", "document.location='https://zktube.io';return false;");
           clearInterval(logoClick);
         }
-      }, 1000)`
-      ]
+      }, 1000)`,
     ],
-  }
+  ],
+};
 
-function resolve (dir) {
-    return path.join(__dirname, '..', dir)
+function resolve(dir) {
+  return path.join(__dirname, "..", dir);
 }

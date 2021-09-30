@@ -64,6 +64,9 @@ module.exports = {
       "/connect/": ["/connect/"],
       "/about/": ["/about/", "/about/PRIVACY POLICY"],
       "/zkTube Mining Tutorials/": ["/zkTube Mining Tutorials/"],
+      "/ZKTC and ZKTT Swap to ZKTR Tutorial/": [
+        "/ZKTC and ZKTT Swap to ZKTR Tutorial/",
+      ],
       // '/': [
       //     '/Introduction',
       // ],

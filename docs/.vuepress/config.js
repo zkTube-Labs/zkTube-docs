@@ -51,7 +51,6 @@ module.exports = {
           title: "What address should I use for a donation",
         },
         // '/faq/What address should I use for a donation',
-        "/faq/What is the donation link",
         "/faq/Do we have official WeChat group",
         "/faq/Where do I get my test coin",
         "/faq/What is zktube",

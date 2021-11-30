@@ -59,6 +59,7 @@ module.exports = {
         "/faq/Does the private ZKT coin need lock position",
         "/faq/Does zktube have a miner",
         "/faq/A total of 100000 pieces can be subscribed",
+        "/faq/Prover",
       ],
       "/connect/": ["/connect/"],
       "/about/": ["/about/", "/about/PRIVACY POLICY"],

@@ -4,9 +4,8 @@ Currently, only Linux mining is supported
 
 ### 1、Installing Dependencies
 
-```
 qbittorrent-nox
-```
+
 
 - Ubuntu ≥ 18.04
 

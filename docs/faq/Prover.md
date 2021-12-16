@@ -6,7 +6,6 @@ Currently, only Linux mining is supported
 
 qbittorrent-nox
 
-
 - Ubuntu ≥ 18.04
 
 ```
@@ -27,7 +26,9 @@ Source Address：[https://github.com/userdocs/qbittorrent-nox-static/](https://
 
 ### 2、Download the Prover binaries and grant them execution permission
 
-Link for Download:[https://file.zktube.io/package/zkTube_prover_2.3.15](https://file.zktube.io/package/zkTube_prover_2.3.15)
+Link for Download:[https://file.zktube.io/package/zkTube_prover_2.3.16](https://file.zktube.io/package/zkTube_prover_2.3.16)
+
+[Historical versions](../Version)
 
 ```
 sudo wget https://file.zktube.io/package/zkTube_prover_2.3.15 /bin/zkTube_prover

@@ -28,7 +28,7 @@ Source Address：[https://github.com/userdocs/qbittorrent-nox-static/](https://
 
 Link for Download:[https://file.zktube.io/package/zkTube_prover_2.3.16](https://file.zktube.io/package/zkTube_prover_2.3.16)
 
-[Historical versions](../Version)
+[Historical versions](./Version)
 
 ```
 sudo wget https://file.zktube.io/package/zkTube_prover_2.3.15 /bin/zkTube_prover

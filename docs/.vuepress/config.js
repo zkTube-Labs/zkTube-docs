@@ -36,10 +36,10 @@ module.exports = {
         text: "About",
         link: "/about/",
       },
-      {
-        text: "Version",
-        link: "/Version/",
-      },
+      // {
+      //   text: "Version",
+      //   link: "/Version/",
+      // },
     ],
     sidebar: {
       "/PayTube docs/": ["/PayTube docs/", "/PayTube docs/PRIVACY POLICY"],
@@ -64,6 +64,7 @@ module.exports = {
         "/faq/Does zktube have a miner",
         "/faq/A total of 100000 pieces can be subscribed",
         "/faq/Prover",
+        "/faq/Version",
       ],
       "/connect/": ["/connect/"],
       "/about/": ["/about/", "/about/PRIVACY POLICY"],
@@ -71,21 +72,21 @@ module.exports = {
       "/ZKTC and ZKTT Swap to ZKTR Tutorial/": [
         "/ZKTC and ZKTT Swap to ZKTR Tutorial/",
       ],
-      "/Version/": [
-        "/Version/",
-        // {
-        //   path: "/Version/",
-        //   title: "Version Introduction",
-        // },
-        // {
-        //   path: "/Version/011",
-        //   title: "0.1.1",
-        // },
-        // {
-        //   path: "/Version/abc",
-        //   title: "0.1.1",
-        // },
-      ],
+      // "/Version/": [
+      //   "/Version/",
+      // {
+      //   path: "/Version/",
+      //   title: "Version Introduction",
+      // },
+      // {
+      //   path: "/Version/011",
+      //   title: "0.1.1",
+      // },
+      // {
+      //   path: "/Version/abc",
+      //   title: "0.1.1",
+      // },
+      // ],
       // '/': [
       //     '/Introduction',
       // ],

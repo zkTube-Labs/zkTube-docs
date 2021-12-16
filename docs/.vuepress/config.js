@@ -36,6 +36,10 @@ module.exports = {
         text: "About",
         link: "/about/",
       },
+      {
+        text: "Version",
+        link: "/Version/",
+      },
     ],
     sidebar: {
       "/PayTube docs/": ["/PayTube docs/", "/PayTube docs/PRIVACY POLICY"],
@@ -66,6 +70,21 @@ module.exports = {
       "/zkTube Mining Tutorials/": ["/zkTube Mining Tutorials/"],
       "/ZKTC and ZKTT Swap to ZKTR Tutorial/": [
         "/ZKTC and ZKTT Swap to ZKTR Tutorial/",
+      ],
+      "/Version/": [
+        "/Version/",
+        // {
+        //   path: "/Version/",
+        //   title: "Version Introduction",
+        // },
+        // {
+        //   path: "/Version/011",
+        //   title: "0.1.1",
+        // },
+        // {
+        //   path: "/Version/abc",
+        //   title: "0.1.1",
+        // },
       ],
       // '/': [
       //     '/Introduction',

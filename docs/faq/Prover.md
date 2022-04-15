@@ -9,9 +9,9 @@ qbittorrent-nox
 - Ubuntu ≥ 18.04
 
 ```
-sudo apt-get update && sudo apt install -y axel software-properties-common dirmngr apt-transport-https lsb-release ca-certificates iproute2 curl wget libssl-dev && \
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y && \
-sudo apt-get update && sudo apt-get install qbittorrent-nox -y
+sudo apt-get update && sudo apt install -y axel software-properties-common dirmngr apt-transport-https lsb-release ca-certificates iproute2 curl wget libssl-dev sysbench
+sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y && \
+sudo apt-get update && sudo apt-get install qbittorrent-nox -y
 ```
 
 - CentOS ≥ 7.3

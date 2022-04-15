@@ -1,4 +1,4 @@
-## Prover
+## <a>Prover</a>
 
 Currently, only Linux mining is supported
 

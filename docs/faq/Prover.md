@@ -13,6 +13,7 @@ sudo apt-get update && sudo apt install -y axel software-properties-common dirmn
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y && \
 sudo apt-get update && sudo apt-get install qbittorrent-nox -y
 ```
+<span style="color:red">*The Sysbench plug-in was added</span>
 
 - CentOS ≥ 7.3
 

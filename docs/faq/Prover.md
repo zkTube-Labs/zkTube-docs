@@ -26,7 +26,7 @@ Source Address：[https://github.com/userdocs/qbittorrent-nox-static/](https://
 
 ### 2、Download the Prover binaries and grant them execution permission
 
-<font color='red'>Link for Download:[https://file.zktube.io/package/zkTube_prover_3.1.2](https://file.zktube.io/package/zkTube_prover_3.1.2)</font>
+<span style="color:red">Link for Download:[https://file.zktube.io/package/zkTube_prover_3.1.2](https://file.zktube.io/package/zkTube_prover_3.1.2)</span>
 
 [Historical versions](./Version)
 

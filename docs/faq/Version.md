@@ -1,5 +1,13 @@
 # Version
 
+- [3.1.2](https://file.zktube.io/package/zkTube_prover_3.1.2) 2022-04-15
+
+Upgrade calculation force calibration mechanism
+
+Link stability enhancement
+
+Fixed some bugs
+
 - [2.3.16](https://file.zktube.io/package/zkTube_prover_2.3.16) 2021-12-16
 
 Solve the compatibility problems of some models

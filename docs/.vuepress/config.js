@@ -64,7 +64,7 @@ module.exports = {
         "/faq/Does zktube have a miner",
         "/faq/A total of 100000 pieces can be subscribed",
         "/faq/Prover",
-        "/faq/Version",
+        // "/faq/Version",
       ],
       "/connect/": ["/connect/"],
       "/about/": ["/about/", "/about/PRIVACY POLICY"],

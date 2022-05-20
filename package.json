@@ -7,7 +7,22 @@
     "start": "vuepress dev docs",
     "build": "vuepress build docs"
   },
+  "check-md": {
+    "defaultIndex": [
+      "README.md"
+    ],
+    "exitLevel": "warn",
+    "ignoreFootnotes": true,
+    "preset": "vuepress",
+    "root": [
+      "./",
+      "./.vuepress/public"
+    ]
+  },
   "devDependencies": {
     "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "markdown-it-footnote": "^3.0.3"
   }
 }

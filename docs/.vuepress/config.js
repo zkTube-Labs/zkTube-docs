@@ -1,13 +1,20 @@
+const footnote_plugin = require("markdown-it-footnote/dist/markdown-it-footnote.min.js");
 const path = require("path");
 module.exports = {
   base: "/",
+  markdown: {
+    extendMarkdown: (md) => {
+      md.use(footnote_plugin);
+    },
+    toc: { includeLevel: [1, 2, 3] },
+  },
   themeConfig: {
     logo: "/logo.png",
     nav: [
-      // {
-      //     text:'Docs',
-      //     link:'/'
-      // },
+      {
+        text: "Docs",
+        link: "/sdk/",
+      },
       //{
       // text:'Witepaper',
       // link:'/Witepaper/'
@@ -71,6 +78,24 @@ module.exports = {
       "/zkTube Mining Tutorials/": ["/zkTube Mining Tutorials/"],
       "/ZKTC and ZKTT Swap to ZKTR Tutorial/": [
         "/ZKTC and ZKTT Swap to ZKTR Tutorial/",
+      ],
+      "/sdk/": [
+        {
+          title: "JavaScript SDK",
+          path: "/sdk/",
+          collapsable: true, // optional, defaults to true
+          sidebarDepth: 2, // optional, defaults to 1
+          children: [
+            "/sdk/tutorial",
+            "/sdk/providers",
+            "/sdk/accounts",
+            "/sdk/utils",
+            "/sdk/nfts",
+            "/sdk/types",
+            "/sdk/browser-bundled",
+          ],
+        },
+        "/sdk/dart",
       ],
       // "/Version/": [
       //   "/Version/",

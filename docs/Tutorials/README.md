@@ -119,4 +119,3 @@
 
 ![https://file.zktube.io/images/mining-docs-v3/028.png](https://file.zktube.io/images/mining-docs-v3/028.png) ![https://file.zktube.io/images/mining-docs-v3/029.png](https://file.zktube.io/images/mining-docs-v3/029.png)
 
-

@@ -1,4 +1,4 @@
-# zkTube Mainnet Simulation Mining Tutorial 
+# zkTube Testnet Simulation Mining Tutorial 
 
 
 ## I. Steps to Receive ZKTR

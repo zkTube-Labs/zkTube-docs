@@ -70,12 +70,12 @@ Note: The address of the Staking account must be consistent with the revenue add
 
 ![https://file.zktube.io/images/paytube-docs/mining23.jpg](https://file.zktube.io/images/paytube-docs/mining23.jpg)
 
-### Step 2: Show all mining accounts, click [Gain] to enter the Mining revenue page, click account to view the list of mining machines;
+### Step 2: Show all mining accounts, click [Gain] to enter the Mining revenue page, click account to view the list of mining machines.
 
 ![https://file.zktube.io/images/paytube-docs/mining24.jpg](https://file.zktube.io/images/paytube-docs/mining24.jpg)
 ![https://file.zktube.io/images/paytube-docs/mining25.jpg](https://file.zktube.io/images/paytube-docs/mining25.jpg)
 
-### Step 3: To view specific mining details, please visit zkTube Scan browser;
+### Step 3: To view specific mining details, please visit zkTube Scan browser.
 
 #### Link:[https://scan.zktube.io/](https://scan.zktube.io/)
 

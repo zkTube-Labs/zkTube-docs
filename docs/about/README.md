@@ -106,4 +106,4 @@ The Terms and any and all contracts concluded under them are governed by and sha
 
 a.We may provide any notice to you under this Terms of User by: (i) posting a notice on the Website; or (ii) sending a message to the email address then associated with your Account. Notices we provide by posting on the Webite will be effective upon posting and notices we provide by email will be effective when we send the email. It is your responsibility to keep your email address current. You will be deemed to have received any email sent to the email address then associated with your account when we send the email, whether or not you actually receive the email.
 
-b.To give us notice under this Agreement, you must contact us by email at Support@zktube.io.
+b.To give us notice under this Agreement, you must contact us by email at business@zktube.io.

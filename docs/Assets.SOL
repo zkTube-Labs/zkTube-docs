@@ -1,0 +1,37 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "./BridgeHub.sol";
+
+contract AssetBridge 
+    BridgeHub public bridgeHub;
+    address public wethToken;
+
+    event Deposit(address indexed user, uint256 amount, uint256 chainId);
+    event Withdraw(address indexed user, uint256 amount, uint256 chainId);
+
+    constructor(address _bridgeHub, address _wethToken) {
+        bridgeHub = BridgeHub(_bridgeHub);
+        wethToken = _wethToken;
+    }
+
+    function deposit(uint256 _amount, uint256 _chainId) external {
+        // Transfer WETH from user to this contract
+        // Assuming WETH follows ERC20 standard
+        require(IERC20(wethToken).transferFrom(msg.sender, address(this), _amount), "Transfer failed");
+        emit Deposit(msg.sender, _amount, _chainId);
+        // Call BridgeHub to handle the deposit and notify the target chain
+    }
+
+    function withdraw(uint256 _amount, uint256 _chainId) external {
+        // Transfer WETH from this contract to the user
+        require(IERC20(wethToken).transfer(msg.sender, _amount), "Transfer failed");
+        emit Withdraw(msg.sender, _amount, _chainId);
+        // Call BridgeHub to handle the withdrawal and notify the target chain
+    }
+}
+
+interface IERC20 {
+    function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);
+    function transfer(address recipient, uint256 amount) external returns (bool);
+}

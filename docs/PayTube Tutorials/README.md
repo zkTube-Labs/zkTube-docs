@@ -1,6 +1,6 @@
 Updated 1.12 Version
 
-# PayTube Tutorials
+# Wallet Tutorials
 
 ## Layer 1 Operation Process
 

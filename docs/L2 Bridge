@@ -1,0 +1,49 @@
+function newChain(
+        uint256 _chainId,
+        address _stateTransition
+    ) external returns (uint256 chainId);
+
+function newStateTransition(address _stateTransition) external;
+
+function requestL2Transaction(
+        uint256 _chainId,
+        address _contractL2,
+        uint256 _l2Value,
+        bytes calldata _calldata,
+        uint256 _l2GasLimit,
+        uint256 _l2GasPerPubdataByteLimit,
+        bytes[] calldata _factoryDeps,
+        address _refundRecipient
+    ) public payable override returns (bytes32 canonicalTxHash) {
+        address proofChain = bridgeheadStorage.proofChain[_chainId];
+        canonicalTxHash = IProofChain(proofChain).requestL2TransactionBridgehead(
+            _chainId,
+            msg.value,
+            msg.sender,
+            _contractL2,
+            _l2Value,
+            _calldata,
+            _l2GasLimit,
+            _l2GasPerPubdataByteLimit,
+            _factoryDeps,
+            _refundRecipient
+        );
+    }
+
+function initializeChain(
+        uint256 _chainId,
+        bytes[] calldata _factoryDeps,
+        uint256 _deployBridgeImplementationFee,
+        uint256 _deployBridgeProxyFee
+    ) external payable {
+    ....
+    // Deploy L2 bridge proxy contract
+        l2Bridge[_chainId] = BridgeInitializationHelper.requestDeployTransaction(
+            _chainId,
+            bridgehead,
+            _deployBridgeProxyFee,
+            l2SharedBridgeProxyBytecodeHash,
+            l2SharedBridgeProxyConstructorData,
+            // No factory deps are needed for L2 bridge proxy, because it is already passed in the previous step
+            new bytes 
+        );

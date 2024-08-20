@@ -280,27 +280,8 @@ At this time, Prover has been unable to modify the user's transaction due to cer
 
 In terms of compression, zkTube adopts the compression principle ZK Rollup, making the file smaller.
 
-For example, a simple Ethereum transaction (sending ETH) is about 110 bytes in size. The ETH transfer on zkTube is only about 12 bytes in size:
+For example, a simple Ethereum transaction (sending ETH) is about 110 bytes in size. The ETH transfer on zkTube is only about 12 bytes in size.
 
-
-
-**The following explains each parametric in the above graphic:**
-
-**Nonce:** The main purpose of this parameter is to prevent replay attacks. If the current account of the random number is 5, then the next transaction for the account must contain 5 random numbers, but when the transaction has been processed, the random number in the account is increased to 6, so the transaction cannot be reprocessed. In zkTube, we can eliminate the random number, because we can directly restore the previous state of the random number. If someone tries to use a random number to replay a previous transaction, the signature cannot be verified, because the signature is checked against data that contains a high random number.
-
-**Gas Price:** Users pay a fixed gas price range. It is billed according to 14 times a power of 2. It will be adjusted according to the price of Ethereum. Of course, users can customize the adjustment according to the range between the minimum and maximum.
-
-**Gas:** Gas form is set as a power of 2, which is set by zkTube.
-
-**To:** You can replace a 20-byte address with an index. For example, if an address is added to the Merkel tree addresses of 4527, we simply use the index 4527 to represent it and then add a "subtree" to store the mapping between the index and the address itself.
-
-**Value:** Use scientific notation to store the value. The number of bits supported by each currency is different, and the number of bytes ranges from 0 to 0.5.
-
-**Signature:** Use the BLS aggregation signature to aggregate a large number of signatures into about 32-96 bytes and complete the ZK PLONK signature. The aggregate signature can be checked at one time based on the message set and batch sender set. The "~0.5" in the table indicates that there is a limit to the number of signatures that can be included in an aggregate signature.
-
-**From:** Replacing a 20-byte address with an index works the same way as To.
-
-**Total:** We can use a scientific approach to store multiple values, the same as with the Value above.
 
 ### 3.7. Batch Packaging and State Root Isolation 
 

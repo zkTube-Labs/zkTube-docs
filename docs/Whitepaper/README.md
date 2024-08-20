@@ -608,11 +608,11 @@ The zkTube Protocol is a scaling solution for the Ethereum community.
 
 **zkTube Foundation 5%**
 
-16,500,000 ZKT, no release, only for emergency treatment, market value management and voting use. The proceeds will be destroyed according to the destruction mechanism.
+16,500,000 ZKT
 
 **Founding Team 0.4%**
 
-A total of 1,320,000ZKT will be locked for one year from the mainnet launch and distributed four times a year from the second year. The distribution will be completed in a total of five years.
+A total of 1,320,000ZKT 
 
 **Community Operation 0.75%**
 
@@ -632,14 +632,6 @@ A total of 12,705,000ZKT is used for node construction and maintenance.
 
 Total 1,980,000 ZKT.
 
-1.Year 1, 1% per week will be released for the first eight weeks after the mainnet launch, and the remaining release would be 2% per month.
-
-2.Year 2, 3% will be released in the rest every month.
-
-3.Year 3, 3% will be released every month until completed. 
-
-**Note:** After the end of financing activity, the remaining（ZKTR）tokens of zkTube Nodes (3.85%) and Investors (0.6%) will be destroyed before the zkTube
-Mainnet Launch.
 
 ### 7.2 ZKT Repurchase and Destruction
 

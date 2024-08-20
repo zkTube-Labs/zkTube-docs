@@ -137,7 +137,7 @@ By using the underlying protocol of zkTube, the ETH Gas charge is reduced, and u
 
 The first account with an account ID of 0 is used for depositing the storage cost until it is withdrawn to L1. 
 
-Currently 2^32 L2 accounts and 2^11 tokens are supported. Each L2 account has a unique number, starting from zero. The default value 0 is the verifier account. The account token contains the following information (PubKeyHash is the public key information of L2 account).
+Currently 2^32 L2 accounts are supported. Each L2 account has a unique number, starting from zero. The default value 0 is the verifier account. The account token contains the following information (PubKeyHash is the public key information of L2 account).
 
 The random number of each account (other than the random number of each token owned by the user) can be used to order the request under the chain at the account level desired by the user. 
 
@@ -272,7 +272,7 @@ Then the smart contract just verifies that the PROOF is correct. If the PROOF is
 
 Since Prover must generate the PROOF of the ZK PLONK protocol before submitting to the contract, if the Prover modifies the user's transaction maliciously, the PROOF will not be verified.
 
-In addition, since the transactions t[1], t[2], ..., t[n] submitted to the chain do not contain nonce and signature, the data on the chain will become smaller (in the above examples, only 11 bytes will be chained per transaction).
+In addition, since the transactions t[1], t[2], ..., t[n] submitted to the chain do not contain nonce and signature, the data on the chain will become smaller.
 
 At this time, Prover has been unable to modify the user's transaction due to certification restrictions. However, a malicious Prover can still refuse to serve a transactor. To prevent this behavior, the contract supports on-chain withdrawal; that is, any transactor can withdraw its token from the chain.
 

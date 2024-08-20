@@ -147,7 +147,7 @@ The L2 state is constituted by two parts: Account Root and Token Leaf Node under
 
 **Account**
 
-![Account](https://file.zktube.io/images/whitepaper/Account.png)
+
 
 **Information on each Token Node**
 

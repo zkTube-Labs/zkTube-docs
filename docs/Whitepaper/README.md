@@ -61,9 +61,8 @@ To see what is contained in this document about the zkTube project, see the tabl
     - [7.2 ZKT Repurchase and Destruction](#72-zkt-repurchase-and-destruction)
   - [8. PayTube Wallet](#8-paytube-wallet)
     - [8.1 PayTube Wallet - A Cross-Platform Mobile Wallet](#81-paytube-wallet---a-cross-platform-mobile-wallet)
-  - [9. Team Members](#9-team-members)
-  - [10. Roadmap](#10-roadmap)
-  - [11. Disclaimer](#11-disclaimer)
+  - [9. Roadmap](#9-roadmap)
+  - [10. Disclaimer](#10-disclaimer)
 
 
 ## 1. Project Background

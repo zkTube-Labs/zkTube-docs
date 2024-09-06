@@ -23,7 +23,7 @@ module.exports = {
       // {
       //     text:'PayTube Tutorials',
       //     link:'/PayTube Tutorials/'
-      // },
+      // } , 
       {
         text: "FAQ",
         link: "/faq/",

@@ -18,4 +18,4 @@ The transition version compatible with the Partial Mining Equipment with Multipl
 
 - [2.3.01](https://file.zktube.io/package/zkTube_prover) 2023-08-14
 
-New Version Released
+New Version Released 

@@ -3,7 +3,7 @@
 
 ## I. Steps to Receive ZKTR
 
-### Step 1: Enter the official website [https://zktube.io/](https://zktube.io/) and click the [Connect Wallet] button;
+### Step 1: Enter the official  website [https://zktube.io/](https://zktube.io/) and click the [Connect Wallet] button;
 
 ![image1](https://file.zktube.io/images/mining-docs/image1.png)
 

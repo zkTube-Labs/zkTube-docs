@@ -2,7 +2,7 @@
 
 ## Abstract
 
-In this document, we will describe the relevant description of the overall design framework of zkTube, a Layer 2 network protocol based on Ethereum including function introduction, technical operation principle, operation mechanism, usage protocol, incentive mechanism, application and development plan, etc. We expect that zkTube will play a role of strong practicability and applicability in Layer 2, supplementing and strengthening the actual application functions of the existing public chain and the entire blockchain by providing fast, safe, reliable and high-performance services.
+In this document, we will describe the relevant description of the overall design framework of zkTube, which is a Layer 2 network protocol based on Ethereum including function introduction, technical operation principle, operation mechanism, usage protocol, incentive mechanism, application and development plan, etc. We expect that zkTube will play a role of strong practicability and applicability in Layer 2, supplementing and strengthening the actual application functions of the existing public chain and the entire blockchain by providing fast, safe, reliable and high-performance services.
 
 Because of the limitation of this document, please visit zktube.io for more information. This document focuses on zkTube's innovative technical architecture and some of its unique features, which are important to achieving zkTube's goals.
 

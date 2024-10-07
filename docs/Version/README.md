@@ -12,10 +12,10 @@ The distribution of the problem of Partial Mining Equipment with Multiple Openin
 
 Fix some known bugs
 
-- [2.3.01](https://file.zktube.io/package/zkTube_prover) 2023-03-17
+- [2.4.01](https://file.zktube.io/package/zkTube_prover) 2023-03-17
 
 The transition version compatible with the Partial Mining Equipment with Multiple Openings on Single Machine
 
-- [2.3.01](https://file.zktube.io/package/zkTube_prover) 2024-07-14
+- [2.5.01](https://file.zktube.io/package/zkTube_prover) 2024-07-14
 
 New Version Released 

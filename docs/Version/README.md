@@ -16,6 +16,6 @@ Fix some known bugs
 
 The transition version compatible with the Partial Mining Equipment with Multiple Openings on Single Machine
 
-- [2.3.01](https://file.zktube.io/package/zkTube_prover) 2023-08-14
+- [2.3.01](https://file.zktube.io/package/zkTube_prover) 2024-07-14
 
 New Version Released 

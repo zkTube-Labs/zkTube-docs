@@ -2,7 +2,7 @@
 
 ## Abstract
 
-In this document, we will describe the relevant description of the overall design framework of zkTube, a Layer 2 network protocol based on Ethereum including function introduction, technical operation principle, operation mechanism, usage protocol, incentive mechanism, application and development plan, etc. We expect that zkTube will play a role of strong practicability and applicability in Layer 2, supplementing and strengthening the actual application functions of the existing public chain and the entire blockchain by providing fast, safe, reliable and high-performance services.
+In this document, we will describe the relevant description of the overall design framework of zkTube, which is a Layer 2 network protocol based on Ethereum including function introduction, technical operation principle, operation mechanism, usage protocol, incentive mechanism, application and development plan, etc. We expect that zkTube will play a role of strong practicability and applicability in Layer 2, supplementing and strengthening the actual application functions of the existing public chain and the entire blockchain by providing fast, safe, reliable and high-performance services.
 
 Because of the limitation of this document, please visit zktube.io for more information. This document focuses on zkTube's innovative technical architecture and some of its unique features, which are important to achieving zkTube's goals.
 
@@ -57,9 +57,9 @@ To see what is contained in this document about the zkTube project, see the tabl
   - [7.2 ZKT Repurchase and Destruction](#72-zkt-repurchase-and-destruction)
 - [8. PayTube Wallet](#8-paytube-wallet)
   - [8.1 PayTube Wallet - A Cross-Platform Mobile Wallet](#81-paytube-wallet-a-cross-platform-mobile-wallet)
-- [9. Team Members](#9-team-members)
-- [10. Roadmap](#10-roadmap)
-- [11. Disclaimer](#11-disclaimer)
+-  
+- [9. Roadmap](#10-roadmap)
+- [10. Disclaimer](#11-disclaimer)
 
 
 ## 1. Project Background
@@ -686,13 +686,12 @@ PayTube Wallet will:
 
 6.Support buy and sell between L2 and more than 40 stable currencies including USDT, USDC, TUSD, GUSD, EURS, etc.
 
-## 9. Team Members
 
-**[Please audit the majority of team members from the below link]**
 
-[https://drive.google.com/file/d/18pdIs5HXRc4NW4MhTE5SjOQATuV_oZPV/view?usp=sharing](https://drive.google.com/file/d/18pdIs5HXRc4NW4MhTE5SjOQATuV_oZPV/view?usp=sharing)
 
-## 10. Roadmap
+
+
+## 9. Roadmap
 
 **Ecological Planning of zkTube**
 
@@ -709,7 +708,7 @@ Through the Web 3.0, Dapp PayTube Wallet is based on the zkTube protocol. To ach
 
 ![Roadmap](https://file.zktube.io/images/whitepaper/Roadmap.png)
 
-## 11. Disclaimer
+## 10. Disclaimer
 
 1. This document is organized into a book based on its project ideas and technical principles, for reference by technical personnel, or communication and academic research among enthusiasts, and does not constitute any purchase advice.
  

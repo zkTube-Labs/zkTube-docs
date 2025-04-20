@@ -7,7 +7,7 @@
 - 1. Click and connect to Web3, connect to the ZKTC wallet (MetaMask)
 
 - 2. For user authorization, click on Approve;
-     spender (address) fill in 0xAa5130a8FeF2AAa211bF6fE1Ca9ad1F48919Adb9
+     spender (address) fill in  0xAa5130a8FeF2AAa211bF6fE1Ca9ad1F48919Adb9
      Fill in XXXX amount (This amount is the authorized amount)
 - 3. Click “Write”
 

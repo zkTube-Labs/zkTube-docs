@@ -1,6 +1,6 @@
 # PRIVACY POLICY
 
-This privacy policy (“Privacy Policy” or “Policy”) is applicable to us, Zktube Labs Pty Ltd. (hereinafter, “zkTube”, "we", "us" or "our") and to all users ("you", "your" or "Users") of the Paytube Wallet (“Wallet”), website, application or web service owned or operated by zkTube (collectively the “App” or “website”). 
+This privacy policy ( “Privacy Policy” or “Policy”) is applicable to us, Zktube Labs Pty Ltd. (hereinafter, “zkTube”, "we", "us" or "our") and to all users ("you", "your" or "Users") of the Paytube Wallet (“Wallet”), website, application or web service owned or operated by zkTube (collectively the “App” or “website”). 
 
 ## A.Introduction
 

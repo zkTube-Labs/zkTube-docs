@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract BridgeUtils {
     
     function hashTransactionData(
-        uint256 _chainId,
+        uint256  _chainId,
         address _contractL2,
         uint256 _l2Value,
         bytes calldata _calldata,
